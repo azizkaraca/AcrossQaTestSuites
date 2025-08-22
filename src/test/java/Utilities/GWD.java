@@ -47,8 +47,8 @@ public class GWD {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     if (!runningFromIntelliJ()) {
                         WebDriverManager.chromedriver().setup();
-                        chromeOptions.addArguments("--incognito");
                         chromeOptions.addArguments("--headless");
+                        chromeOptions.addArguments("--incognito");
                         chromeOptions.addArguments("--no-sandbox");
                         chromeOptions.addArguments("--disable-dev-shm-usage");
                         chromeOptions.addArguments("--disable-gpu");
