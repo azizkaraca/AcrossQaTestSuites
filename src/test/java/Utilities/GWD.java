@@ -1,4 +1,5 @@
 package Utilities;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -36,10 +37,20 @@ public class GWD {
                 switch (browserName){
 
                     case "chrome":
-                        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-                        ChromeOptions chromeOptions = new ChromeOptions(); // if incognito not desired so delete this raw and delete below which include "opt"
-                        chromeOptions.addArguments("--incognito"); // incognito mode
-                        threadDriver.set(new ChromeDriver(chromeOptions)); // chromeOptions for incognito
+//                        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
+//                        ChromeOptions chromeOptions = new ChromeOptions(); // if incognito not desired so delete this raw and delete below which include "opt"
+//                        chromeOptions.addArguments("--incognito"); // incognito mode
+//                        threadDriver.set(new ChromeDriver(chromeOptions)); // chromeOptions for incognito
+//                        break;
+
+                        WebDriverManager.chromedriver()
+                                .cachePath("C:\\Users\\AzizKaraca\\.cache\\selenium") // Java string içinde doğru
+                                .setup();
+
+
+//                        ChromeOptions chromeOptions = new ChromeOptions();
+//                        chromeOptions.addArguments("--incognito"); // incognito mode
+                        threadDriver.set(new ChromeDriver());
                         break;
 
                     case "firefox":
