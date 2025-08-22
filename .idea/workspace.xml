@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250822_New Name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LogoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/extent.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,15 +104,15 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/testng.xml">
-    <configuration name="Feature: TC01_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC02_Logout (1)">
+    <configuration name="Feature: TC02_Logout (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossTestSuites" />
+      <module name="AcrossQaTestSuites" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC01_Login" />
+      <option name="SUGGESTED_NAME" value="Feature: TC02_Logout" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: TC02_Logout (1)" />
         <item itemvalue="TestNG.C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/testng.xml" />
         <item itemvalue="TestNG.SmokeTestRunner" />
         <item itemvalue="Cucumber Java.Feature: TC03_CreateNewDevice" />
         <item itemvalue="Cucumber Java.Feature: TC02_Logout" />
-        <item itemvalue="Cucumber Java.Feature: TC01_Login" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755868767297</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="20250822_New Name">
+      <option name="closed" value="true" />
+      <created>1755869687967</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1755869687967</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

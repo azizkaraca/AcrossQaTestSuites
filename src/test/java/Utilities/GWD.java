@@ -47,10 +47,9 @@ public class GWD {
                                 .cachePath("C:\\Users\\AzizKaraca\\.cache\\selenium") // Java string içinde doğru
                                 .setup();
 
-
-//                        ChromeOptions chromeOptions = new ChromeOptions();
-//                        chromeOptions.addArguments("--incognito"); // incognito mode
-                        threadDriver.set(new ChromeDriver());
+                        ChromeOptions chromeOptions = new ChromeOptions();
+                        chromeOptions.addArguments("--incognito","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--window-size=1920,1080");
+                        threadDriver.set(new ChromeDriver(chromeOptions));
                         break;
 
                     case "firefox":
