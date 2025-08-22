@@ -1,4 +1,5 @@
 package Utilities;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,71 +20,73 @@ public class GWD {
     private static WebDriver driver;
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     public static ThreadLocal<String> threadBrowser = new ThreadLocal<>();
-    public static WebDriver getDriver()
-    {
-            Locale.setDefault(new Locale("EN"));
-            System.setProperty("user.language", "EN");
 
-            Logger.getLogger("").setLevel(Level.SEVERE);
-            System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
+    public static WebDriver getDriver() {
+        Locale.setDefault(new Locale("EN"));
+        System.setProperty("user.language", "EN");
 
-            if (threadBrowser.get()==null)
-                threadBrowser.set("chrome");
+        Logger.getLogger("").setLevel(Level.SEVERE);
+        System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
 
-            if (threadDriver.get() == null) {
+        if (threadBrowser.get() == null)
+            threadBrowser.set("chrome");
 
-                String browserName=threadBrowser.get();
+        if (threadDriver.get() == null) {
 
-                switch (browserName){
+            String browserName = threadBrowser.get();
 
-                    case "chrome":
+            switch (browserName) {
+
+                case "chrome":
 //                        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 //                        ChromeOptions chromeOptions = new ChromeOptions(); // if incognito not desired so delete this raw and delete below which include "opt"
 //                        chromeOptions.addArguments("--incognito"); // incognito mode
 //                        threadDriver.set(new ChromeDriver(chromeOptions)); // chromeOptions for incognito
 //                        break;
 
-                        if(!runningFromIntelliJ()){
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    if (!runningFromIntelliJ()) {
                         WebDriverManager.chromedriver().setup();
 //                                .cachePath("C:\\Users\\AzizKaraca\\.cache\\selenium") // Java string içinde doğru
 //                                .setup();
 
-                        ChromeOptions chromeOptions = new ChromeOptions();
-//                        chromeOptions.addArguments("--incognito");
+
+                        chromeOptions.addArguments("--incognito");
                         chromeOptions.addArguments("--headless=new");
-                        chromeOptions.addArguments("--no-sandbox");
-                        chromeOptions.addArguments("--disable-dev-shm-usage");
-                        chromeOptions.addArguments("--disable-gpu");
+//                        chromeOptions.addArguments("--no-sandbox");
+//                        chromeOptions.addArguments("--disable-dev-shm-usage");
+//                        chromeOptions.addArguments("--disable-gpu");
                         chromeOptions.addArguments("--window-size=1400,2400");
                         threadDriver.set(new ChromeDriver(chromeOptions));
-                        break; }
+                    } else
+                        chromeOptions.addArguments("--incognito");
+                        threadDriver.set(new ChromeDriver(chromeOptions));
 
-                        else
-                            threadDriver.set(new ChromeDriver());
+                    break;
 
-                    case "firefox":
-                        System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
-                        FirefoxOptions firefoxOptions = new FirefoxOptions(); // for private mode
-                        firefoxOptions.addArguments("-private"); // private mode
-                        threadDriver.set(new FirefoxDriver(firefoxOptions)); // firefoxOptions fo private mode
-                        break;
 
-                    case "safari":
-                        threadDriver.set(new SafariDriver());
-                        break;
+                case "firefox":
+                    System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
+                    FirefoxOptions firefoxOptions = new FirefoxOptions(); // for private mode
+                    firefoxOptions.addArguments("-private"); // private mode
+                    threadDriver.set(new FirefoxDriver(firefoxOptions)); // firefoxOptions fo private mode
+                    break;
 
-                }
-                threadDriver.get().manage().window().maximize();
+                case "safari":
+                    threadDriver.set(new SafariDriver());
+                    break;
+
             }
-            return threadDriver.get();
+            threadDriver.get().manage().window().maximize();
+        }
+        return threadDriver.get();
     }
 
     public static void quitDriver() {
 
         waitForCheck(2);
 
-        if (threadDriver.get() != null)
-        {
+        if (threadDriver.get() != null) {
             threadDriver.get().quit();
 
             WebDriver driver = threadDriver.get();
@@ -91,6 +94,7 @@ public class GWD {
             threadDriver.set(driver);
         }
     }
+
     public static void waitForCheck(int second) {
         try {
             Thread.sleep(second * 1000);
@@ -101,8 +105,7 @@ public class GWD {
 
     }
 
-    public static boolean runningFromIntelliJ()
-    {
+    public static boolean runningFromIntelliJ() {
         String classPath = System.getProperty("java.class.path");
         return classPath.contains("idea_rt.jar");
     }
