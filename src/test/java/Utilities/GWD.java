@@ -51,8 +51,8 @@ public class GWD {
 //                                .setup();
 
 
-                        chromeOptions.addArguments("--incognito");
-                        chromeOptions.addArguments("--headless=new");
+//                        chromeOptions.addArguments("--incognito");
+                        chromeOptions.addArguments("--headless");
 //                        chromeOptions.addArguments("--no-sandbox");
 //                        chromeOptions.addArguments("--disable-dev-shm-usage");
 //                        chromeOptions.addArguments("--disable-gpu");
