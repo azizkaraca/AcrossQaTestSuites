@@ -140,9 +140,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M1</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+                    <includes>
+                        <include>**/SmokeTestRunner.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
