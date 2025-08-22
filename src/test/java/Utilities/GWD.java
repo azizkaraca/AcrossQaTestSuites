@@ -43,14 +43,23 @@ public class GWD {
 //                        threadDriver.set(new ChromeDriver(chromeOptions)); // chromeOptions for incognito
 //                        break;
 
-                        WebDriverManager.chromedriver()
-                                .cachePath("C:\\Users\\AzizKaraca\\.cache\\selenium") // Java string içinde doğru
-                                .setup();
+                        if(!runningFromIntelliJ()){
+                        WebDriverManager.chromedriver().setup();
+//                                .cachePath("C:\\Users\\AzizKaraca\\.cache\\selenium") // Java string içinde doğru
+//                                .setup();
 
                         ChromeOptions chromeOptions = new ChromeOptions();
-                        chromeOptions.addArguments("--incognito","--headless=new","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--window-size=1400,2400");
+//                        chromeOptions.addArguments("--incognito");
+                        chromeOptions.addArguments("--headless=new");
+                        chromeOptions.addArguments("--no-sandbox");
+                        chromeOptions.addArguments("--disable-dev-shm-usage");
+                        chromeOptions.addArguments("--disable-gpu");
+                        chromeOptions.addArguments("--window-size=1400,2400");
                         threadDriver.set(new ChromeDriver(chromeOptions));
-                        break;
+                        break; }
+
+                        else
+                            threadDriver.set(new ChromeDriver());
 
                     case "firefox":
                         System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
@@ -88,5 +97,13 @@ public class GWD {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
+    }
+
+    public static boolean runningFromIntelliJ()
+    {
+        String classPath = System.getProperty("java.class.path");
+        return classPath.contains("idea_rt.jar");
     }
 }

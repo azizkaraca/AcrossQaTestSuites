@@ -12,7 +12,7 @@ public class LogoutSteps {
     public void goToMyAccount()
     {
 
-//        dc.findAndClick("personIcon");
+        dc.findAndClick("personIcon");
         dc.findAndClick("downArrow");
 
     }
