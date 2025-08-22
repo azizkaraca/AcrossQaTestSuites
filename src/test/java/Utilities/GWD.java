@@ -48,7 +48,7 @@ public class GWD {
                                 .setup();
 
                         ChromeOptions chromeOptions = new ChromeOptions();
-                        chromeOptions.addArguments("--incognito","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--window-size=1920,1080");
+                        chromeOptions.addArguments("--incognito","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--window-size=1400,2400");
                         threadDriver.set(new ChromeDriver(chromeOptions));
                         break;
 
