@@ -31,6 +31,7 @@ public class GWD {
             String browser = threadBrowser.get();
 
             if (browser.equalsIgnoreCase("chrome")) {
+
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
 
