@@ -5,14 +5,14 @@
     <test name="Test Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="Runners.SmokeTestRunner"/>
+            <class name="Runners._04_CrossBrowserRunner"/>
         </classes>
     </test>
 
     <test name="Test Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="Runners.SmokeTestRunner"/>
+            <class name="Runners._04_CrossBrowserRunner"/>
         </classes>
     </test>
 

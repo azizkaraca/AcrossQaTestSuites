@@ -16,4 +16,13 @@ import org.testng.annotations.Parameters;
 
 public class SmokeTestRunner extends AbstractTestNGCucumberTests {
 
+    // below block should be open if the job runs by in XML Files, so it can take the browser from there
+
+//    @BeforeClass
+//    @Parameters("browser")
+//    public void beforeClass(String browser)
+//    {
+//        GWD.setBrowser(browser);
+//    }
+
 }

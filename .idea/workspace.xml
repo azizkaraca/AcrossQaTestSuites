@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_7">
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_8">
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.05/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.07/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.09/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.16/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.19/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/Old_GWD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_04_CrossBrowserRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_04_CrossBrowserRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_05_ParallelTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_05_ParallelTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XML_Files/CrossBrowserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XML_Files/CrossBrowserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/old_GWD" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/old_GWD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/GWD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/GWD.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +115,7 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SmokeTestRunner (1)">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC01_Login">
     <configuration name="Feature: TC01_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" />
@@ -124,28 +135,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC02_Logout (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC02_Logout" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: TC-01 Login with valid username and valid password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
@@ -163,9 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AcrossTestSuites" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+    <configuration name="C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/src/test/java/XML_Files/CrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AcrossQaTestSuites" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XML_Files/CrossBrowserTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/src/test/java/XML_Files/ParallelCrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AcrossQaTestSuites" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XML_Files/ParallelCrossBrowserTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -192,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SmokeTestRunner (1)" />
-        <item itemvalue="Cucumber Java.Feature: TC02_Logout (1)" />
         <item itemvalue="Cucumber Java.Feature: TC01_Login" />
         <item itemvalue="Cucumber Java.Scenario: TC-01 Login with valid username and valid password" />
-        <item itemvalue="TestNG.C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/src/test/java/XML_Files/CrossBrowserTest.xml" />
+        <item itemvalue="TestNG.C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/src/test/java/XML_Files/ParallelCrossBrowserTest.xml" />
+        <item itemvalue="TestNG.SmokeTestRunner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -309,14 +311,6 @@
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
       <updated>1693299900651</updated>
-    </task>
-    <task id="LOCAL-00015" summary="07.09.23 updated">
-      <option name="closed" value="true" />
-      <created>1694070019757</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1694070019757</updated>
     </task>
     <task id="LOCAL-00016" summary="08.09 updated">
       <created>1694174663106</created>
@@ -597,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756112220688</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="20250825_Update_8">
+      <option name="closed" value="true" />
+      <created>1756116941250</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1756116941250</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +630,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="15.05 updated" />
     <MESSAGE value="18.05 updated" />
     <MESSAGE value="22.05 updated" />
     <MESSAGE value="24.05 updated" />
@@ -653,7 +654,8 @@
     <MESSAGE value="20250825_Update_5" />
     <MESSAGE value="20250825_Update_6" />
     <MESSAGE value="20250825_Update_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250825_Update_7" />
+    <MESSAGE value="20250825_Update_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250825_Update_8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

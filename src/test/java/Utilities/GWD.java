@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class GWD {
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
-    private static ThreadLocal<String> threadBrowser = new ThreadLocal<>();
+    private static ThreadLocal<String> threadBrowser = new ThreadLocal<>(); // public yaparsam runnerslardan browser set edebilirim
 
     public static WebDriver getDriver() {
 
@@ -22,7 +22,6 @@ public class GWD {
 
         Logger.getLogger("").setLevel(Level.SEVERE);
         System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 
         if (threadBrowser.get() == null) {
             threadBrowser.set("chrome"); // default chrome
@@ -32,38 +31,31 @@ public class GWD {
             String browser = threadBrowser.get();
 
             if (browser.equalsIgnoreCase("chrome")) {
+                System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
                 WebDriverManager.chromedriver().setup();
-
                 ChromeOptions options = new ChromeOptions();
 
-                // if Jenkins works
                 if (isRunningOnJenkins()) {
                     options.addArguments("--headless=new");
                     options.addArguments("--window-size=1920,1080");
                 } else {
-                    // if Intelij works
                     options.addArguments("--start-maximized");
+                    options.addArguments("--incognito");
                 }
-
                 threadDriver.set(new ChromeDriver(options));
             }
-//            threadDriver.get().manage().window().maximize();
         }
-
         return threadDriver.get();
     }
 
     public static void quitDriver() {
+
         if (threadDriver.get() != null) {
             threadDriver.get().quit();
             threadDriver.remove();
             threadBrowser.remove();
         }
-    }
-
-    private static boolean isRunningOnJenkins() {
-        // Jenkins gets Env with "JENKINS_HOME" env variable
-        return System.getenv("JENKINS_HOME") != null;
+        waitForCheck(2);
     }
 
     public static void waitForCheck(int second) {
@@ -72,6 +64,10 @@ public class GWD {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private static boolean isRunningOnJenkins() {
+        return System.getenv("JENKINS_HOME") != null;
     }
 
     public static void setBrowser(String browser) {

@@ -1,25 +1,19 @@
 package Utilities;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.safari.SafariOptions;
 import org.slf4j.impl.SimpleLogger;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-public class GWD {
-
-    private static WebDriver driver;
+public class Old_GWD {
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     public static ThreadLocal<String> threadBrowser = new ThreadLocal<>();
 
@@ -29,7 +23,6 @@ public class GWD {
 
         Logger.getLogger("").setLevel(Level.SEVERE);
         System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 
         if (threadBrowser.get() == null)
             threadBrowser.set("chrome");
@@ -47,22 +40,20 @@ public class GWD {
 //                        threadDriver.set(new ChromeDriver(chromeOptions)); // chromeOptions for incognito
 //                        break;
 
+                    System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
                     ChromeOptions chromeOptions = new ChromeOptions();
                     WebDriverManager.chromedriver().setup();
 
-                    if (!runningFromIntelliJ()) {
-
+                    if (isRunningOnJenkins()) {
                         chromeOptions.addArguments("--headless=new");
                         chromeOptions.addArguments("--incognito");
                         chromeOptions.addArguments("--window-size=1920,1080");
-                        threadDriver.set(new ChromeDriver(chromeOptions));
                     } else {
                         chromeOptions.addArguments("--incognito");
-                        threadDriver.set(new ChromeDriver(chromeOptions));
-                        }
-
+                        chromeOptions.addArguments("--start-maximized");
+                    }
+                    threadDriver.set(new ChromeDriver(chromeOptions));
                     break;
-
 
                 case "firefox":
                     System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
@@ -75,8 +66,11 @@ public class GWD {
                     threadDriver.set(new SafariDriver());
                     break;
 
+                case "edge":
+                    threadDriver.set(new EdgeDriver());
+                    break;
+
             }
-            threadDriver.get().manage().window().maximize();
         }
         return threadDriver.get();
     }
@@ -102,12 +96,8 @@ public class GWD {
         }
     }
 
-    public static boolean runningFromIntelliJ() {
-        String classPath = System.getProperty("java.class.path");
-        return classPath.contains("idea_rt.jar");
+    public static boolean isRunningOnJenkins() {
+        return System.getenv("JENKINS_HOME") != null;
     }
+
 }
-
-
-
-
