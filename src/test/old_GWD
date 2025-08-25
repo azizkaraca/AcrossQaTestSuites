@@ -52,14 +52,13 @@ public class GWD {
                         WebDriverManager.chromedriver().setup();
                         chromeOptions.addArguments("--headless=new");
                         chromeOptions.addArguments("--incognito");
-                        chromeOptions.addArguments("--no-sandbox");
-                        chromeOptions.addArguments("--disable-dev-shm-usage");
-                        chromeOptions.addArguments("--disable-gpu");
                         chromeOptions.addArguments("--window-size=1920,1080");
                         threadDriver.set(new ChromeDriver(chromeOptions));
-                    } else
+                    } else {
                         chromeOptions.addArguments("--incognito");
                         threadDriver.set(new ChromeDriver(chromeOptions));
+                        }
+
                     break;
 
 

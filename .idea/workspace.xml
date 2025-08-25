@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_6">
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/old_GWD" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/old_GWD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,14 +310,6 @@
       <option name="project" value="LOCAL" />
       <updated>1693299900651</updated>
     </task>
-    <task id="LOCAL-00014" summary="07.09 updated">
-      <option name="closed" value="true" />
-      <created>1694069622433</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1694069622433</updated>
-    </task>
     <task id="LOCAL-00015" summary="07.09.23 updated">
       <option name="closed" value="true" />
       <created>1694070019757</created>
@@ -595,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756111982045</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="20250825_Update_7">
+      <option name="closed" value="true" />
+      <created>1756112220687</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1756112220688</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +628,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.05 updated" />
     <MESSAGE value="15.05 updated" />
     <MESSAGE value="18.05 updated" />
     <MESSAGE value="22.05 updated" />
@@ -651,7 +652,8 @@
     <MESSAGE value="20250825_Update_4" />
     <MESSAGE value="20250825_Update_5" />
     <MESSAGE value="20250825_Update_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250825_Update_6" />
+    <MESSAGE value="20250825_Update_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250825_Update_7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
