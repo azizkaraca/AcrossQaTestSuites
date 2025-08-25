@@ -47,7 +47,7 @@ public class GWD {
 
                 threadDriver.set(new ChromeDriver(options));
             }
-            threadDriver.get().manage().window().maximize();
+//            threadDriver.get().manage().window().maximize();
         }
 
         return threadDriver.get();
