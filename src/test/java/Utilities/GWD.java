@@ -1,111 +1,58 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.safari.SafariOptions;
-import org.slf4j.impl.SimpleLogger;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Locale;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class GWD {
-
-    private static WebDriver driver;
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
-    public static ThreadLocal<String> threadBrowser = new ThreadLocal<>();
+    private static ThreadLocal<String> threadBrowserName = new ThreadLocal<>();
 
     public static WebDriver getDriver() {
-        Locale.setDefault(new Locale("EN"));
-        System.setProperty("user.language", "EN");
-
-        Logger.getLogger("").setLevel(Level.SEVERE);
-        System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-
-        if (threadBrowser.get() == null)
-            threadBrowser.set("chrome");
+        if (threadBrowserName.get() == null) {
+            // default chrome
+            threadBrowserName.set("chrome");
+        }
 
         if (threadDriver.get() == null) {
+            String browser = threadBrowserName.get();
 
-            String browserName = threadBrowser.get();
+            if (browser.equalsIgnoreCase("chrome")) {
+                WebDriverManager.chromedriver().setup();
 
-            switch (browserName) {
+                ChromeOptions options = new ChromeOptions();
 
-                case "chrome":
-//                        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-//                        ChromeOptions chromeOptions = new ChromeOptions(); // if incognito not desired so delete this raw and delete below which include "opt"
-//                        chromeOptions.addArguments("--incognito"); // incognito mode
-//                        threadDriver.set(new ChromeDriver(chromeOptions)); // chromeOptions for incognito
-//                        break;
+                // Eğer Jenkins ortamında çalışıyorsa headless + window-size
+                if (isRunningOnJenkins()) {
+                    options.addArguments("--headless=new");
+                    options.addArguments("--window-size=1920,1080");
+                } else {
+                    // Localde normal tarayıcı açılır
+                    options.addArguments("--start-maximized");
+                }
 
-                    ChromeOptions chromeOptions = new ChromeOptions();
-                    if (!runningFromIntelliJ()) {
-                        WebDriverManager.chromedriver().setup();
-                        chromeOptions.addArguments("--headless=new");
-                        chromeOptions.addArguments("--incognito");
-                        chromeOptions.addArguments("--no-sandbox");
-                        chromeOptions.addArguments("--disable-dev-shm-usage");
-                        chromeOptions.addArguments("--disable-gpu");
-                        chromeOptions.addArguments("--window-size=1920,1080");
-                        threadDriver.set(new ChromeDriver(chromeOptions));
-                    } else
-                        chromeOptions.addArguments("--incognito");
-                        threadDriver.set(new ChromeDriver(chromeOptions));
-                    break;
-
-
-                case "firefox":
-                    System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
-                    FirefoxOptions firefoxOptions = new FirefoxOptions(); // for private mode
-                    firefoxOptions.addArguments("-private"); // private mode
-                    threadDriver.set(new FirefoxDriver(firefoxOptions)); // firefoxOptions fo private mode
-                    break;
-
-                case "safari":
-                    threadDriver.set(new SafariDriver());
-                    break;
-
+                threadDriver.set(new ChromeDriver(options));
             }
-            threadDriver.get().manage().window().maximize();
         }
+
         return threadDriver.get();
     }
 
     public static void quitDriver() {
-
-        waitForCheck(2);
-
         if (threadDriver.get() != null) {
             threadDriver.get().quit();
-
-            WebDriver driver = threadDriver.get();
-            driver = null;
-            threadDriver.set(driver);
+            threadDriver.remove();
+            threadBrowserName.remove();
         }
     }
 
-    public static void waitForCheck(int second) {
-        try {
-            Thread.sleep(second * 1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+    private static boolean isRunningOnJenkins() {
+        // Jenkins ortamı genelde "JENKINS_HOME" env variable ile anlaşılır
+        return System.getenv("JENKINS_HOME") != null;
     }
 
-    public static boolean runningFromIntelliJ() {
-        String classPath = System.getProperty("java.class.path");
-        return classPath.contains("idea_rt.jar");
+    public static void setBrowser(String browser) {
+        threadBrowserName.set(browser);
     }
 }

@@ -18,7 +18,7 @@ public class _05_ParallelTestRunner extends AbstractTestNGCucumberTests {
     @Parameters("browser")
     public void beforeClass(String browser)
     {
-        GWD.threadBrowser.set(browser);
+//        GWD.threadBrowser.set(browser);
     }
 
 

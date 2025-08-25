@@ -18,7 +18,7 @@ public class _04_CrossBrowserRunner extends AbstractTestNGCucumberTests {
     @Parameters("browser")
     public void beforeClass(String browser)
     {
-        GWD.threadBrowser.set(browser);
+//        GWD.threadBrowser.set(browser);
     }
 
 
