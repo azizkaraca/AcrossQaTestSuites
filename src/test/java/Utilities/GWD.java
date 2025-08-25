@@ -27,6 +27,7 @@ public class GWD {
 
         Logger.getLogger("").setLevel(Level.SEVERE);
         System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
+        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 
         if (threadBrowser.get() == null)
             threadBrowser.set("chrome");
@@ -47,7 +48,7 @@ public class GWD {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     if (!runningFromIntelliJ()) {
                         WebDriverManager.chromedriver().setup();
-                        chromeOptions.addArguments("--headless");
+//                        chromeOptions.addArguments("--headless");
                         chromeOptions.addArguments("--incognito");
                         chromeOptions.addArguments("--no-sandbox");
                         chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -57,7 +58,6 @@ public class GWD {
                     } else
                         chromeOptions.addArguments("--incognito");
                         threadDriver.set(new ChromeDriver(chromeOptions));
-
                     break;
 
 
