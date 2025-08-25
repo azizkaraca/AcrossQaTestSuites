@@ -1,6 +1,9 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -11,6 +14,8 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 import org.slf4j.impl.SimpleLogger;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -55,6 +60,12 @@ public class GWD {
                         chromeOptions.addArguments("--disable-gpu");
                         chromeOptions.addArguments("--window-size=1500,720");
                         threadDriver.set(new ChromeDriver(chromeOptions));
+                        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+                        try {
+                            FileUtils.copyFile(scrFile, new File("target/screenshots/fail.png"));
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
                     } else
                         chromeOptions.addArguments("--incognito");
                         threadDriver.set(new ChromeDriver(chromeOptions));
