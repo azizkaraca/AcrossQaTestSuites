@@ -14,12 +14,4 @@ import org.testng.annotations.Parameters;
 
 public class _05_ParallelTestRunner extends AbstractTestNGCucumberTests {
 
-    @BeforeClass//(alwaysRun = true)
-    @Parameters("browser")
-    public void beforeClass(String browser)
-    {
-//        GWD.threadBrowser.set(browser);
-    }
-
-
 }

@@ -14,12 +14,12 @@ import org.testng.annotations.Parameters;
 
 public class _04_CrossBrowserRunner extends AbstractTestNGCucumberTests {
 
-    @BeforeClass
-    @Parameters("browser")
-    public void beforeClass(String browser)
-    {
-//        GWD.threadBrowser.set(browser);
-    }
+//    @BeforeClass
+//    @Parameters("browser")
+//    public void beforeClass(String browser)
+//    {
+//        GWD.setBrowser(browser);
+//    }
 
 
 }
