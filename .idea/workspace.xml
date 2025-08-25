@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_8">
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.05/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.07/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.09/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.16/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 16.19/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/Old_GWD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_04_CrossBrowserRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_04_CrossBrowserRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_05_ParallelTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_05_ParallelTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/XML_Files/CrossBrowserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XML_Files/CrossBrowserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/old_GWD" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/old_GWD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/GWD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/GWD.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -319,14 +308,6 @@
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
     </task>
-    <task id="LOCAL-00017" summary="09.10 updated">
-      <option name="closed" value="true" />
-      <created>1696837167119</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1696837167120</updated>
-    </task>
     <task id="LOCAL-00018" summary="10.04 updated">
       <option name="closed" value="true" />
       <created>1712755899692</created>
@@ -599,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756116941250</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="20250825_Update_8">
+      <option name="closed" value="true" />
+      <created>1756129886717</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1756129886717</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

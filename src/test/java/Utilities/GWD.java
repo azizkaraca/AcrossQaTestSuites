@@ -31,7 +31,6 @@ public class GWD {
             String browser = threadBrowser.get();
 
             if (browser.equalsIgnoreCase("chrome")) {
-                System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
 
