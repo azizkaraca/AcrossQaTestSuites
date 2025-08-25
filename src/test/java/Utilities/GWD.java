@@ -53,19 +53,13 @@ public class GWD {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     if (!runningFromIntelliJ()) {
                         WebDriverManager.chromedriver().setup();
-//                        chromeOptions.addArguments("--headless");
+                        chromeOptions.addArguments("--headless=new");
                         chromeOptions.addArguments("--incognito");
                         chromeOptions.addArguments("--no-sandbox");
                         chromeOptions.addArguments("--disable-dev-shm-usage");
                         chromeOptions.addArguments("--disable-gpu");
-                        chromeOptions.addArguments("--window-size=1500,720");
+                        chromeOptions.addArguments("--window-size=1920,1080");
                         threadDriver.set(new ChromeDriver(chromeOptions));
-                        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-                        try {
-                            FileUtils.copyFile(scrFile, new File("target/screenshots/fail.png"));
-                        } catch (IOException e) {
-                            throw new RuntimeException(e);
-                        }
                     } else
                         chromeOptions.addArguments("--incognito");
                         threadDriver.set(new ChromeDriver(chromeOptions));
