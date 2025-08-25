@@ -53,7 +53,7 @@ public class GWD {
                         chromeOptions.addArguments("--no-sandbox");
                         chromeOptions.addArguments("--disable-dev-shm-usage");
                         chromeOptions.addArguments("--disable-gpu");
-                        chromeOptions.addArguments("--window-size=1400,2400");
+                        chromeOptions.addArguments("--window-size=1500,720");
                         threadDriver.set(new ChromeDriver(chromeOptions));
                     } else
                         chromeOptions.addArguments("--incognito");
