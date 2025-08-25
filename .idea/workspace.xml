@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_5">
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 11.37/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 11.38/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 25-08-25 11.47/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/old_GWD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_04_CrossBrowserRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_04_CrossBrowserRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_05_ParallelTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_05_ParallelTestRunner.java" afterDir="false" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250825_Update_6">
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/SmokeTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/SmokeTestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/_04_CrossBrowserRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/_04_CrossBrowserRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/_05_ParallelTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/_05_ParallelTestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/GWD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/GWD.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -591,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756109848018</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="20250825_Update_6">
+      <option name="closed" value="true" />
+      <created>1756111849557</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1756111849557</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +618,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="09.05 updated" />
     <MESSAGE value="10.05 updated" />
     <MESSAGE value="15.05 updated" />
     <MESSAGE value="18.05 updated" />
@@ -647,7 +642,8 @@
     <MESSAGE value="20250825_Update_3" />
     <MESSAGE value="20250825_Update_4" />
     <MESSAGE value="20250825_Update_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250825_Update_5" />
+    <MESSAGE value="20250825_Update_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250825_Update_6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
