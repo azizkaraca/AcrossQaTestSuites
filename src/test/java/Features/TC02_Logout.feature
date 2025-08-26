@@ -1,10 +1,10 @@
-Feature: Logout Functionality
+Feature: Logout
 
   Background:
     Given Navigate to QA Environment
 
   @SmokeTest @Regression
-  Scenario: TC-01 Login with valid username and valid password
+  Scenario: TC-02 Logout From Application
     When Login with QA user credentials
     Then Login should be successfully
     And Go to MyAccount

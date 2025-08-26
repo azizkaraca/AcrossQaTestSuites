@@ -1,4 +1,4 @@
-Feature: Devices Creation
+Feature: Device Creation
 
   Background:
     Given Navigate to QA Environment
@@ -6,7 +6,7 @@ Feature: Devices Creation
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-03 Create a new Device
+  Scenario: TC-03 Device Creation Scenario
 
     And User clicks following Buttons
       | personIcon |

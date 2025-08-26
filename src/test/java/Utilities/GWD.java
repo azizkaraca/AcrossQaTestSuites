@@ -50,12 +50,14 @@ public class GWD {
 
     public static void quitDriver() {
 
+        waitForCheck(2);
+
         if (threadDriver.get() != null) {
             threadDriver.get().quit();
             threadDriver.remove();
             threadBrowser.remove();
         }
-        waitForCheck(2);
+
     }
 
     public static void waitForCheck(int second) {

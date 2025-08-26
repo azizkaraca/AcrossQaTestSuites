@@ -43,7 +43,8 @@ public class DialogContent extends _Parent {
     private WebElement downArrow;
     @FindBy(xpath = "(//*[@data-testid='PersonIcon'])[1]")
     private WebElement personIcon;
-    @FindBy(xpath = "//div[(text()='Logout')]")
+//    @FindBy(xpath = "//div[(text()='Logout')]")
+    @FindBy(xpath = "//*[@data-testid='ExitToAppIcon']")
     private WebElement logout;
     @FindBy(xpath = "//div[text()='My Account']")
     private WebElement myAccount;
@@ -55,6 +56,8 @@ public class DialogContent extends _Parent {
     private WebElement management;
     @FindBy(xpath = "//span[text()='Devices']")
     private WebElement devices;
+    @FindBy(xpath = "//button[text()='Hide']")
+    private WebElement hide;
     @FindBy(xpath = "(//*[text()='Message']/following-sibling::div//textarea)")
     private WebElement message;
     @FindBy(id = "item_ejv2svq3e3wft3dtu9")
@@ -483,6 +486,7 @@ public class DialogContent extends _Parent {
             case "english": myElement = english;break;
             case "greek": myElement = greek;break;
             case "shareable": myElement = shareable;break;
+            case "hide": myElement = hide;break;
 
 
         }

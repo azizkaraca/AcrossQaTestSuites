@@ -1,10 +1,10 @@
-Feature: Login Functionality
+Feature: Login
 
   Background:
     Given Navigate to QA Environment
 
   @SmokeTest @Regression
-    Scenario: TC-01 Login with valid username and valid password
+    Scenario: TC-01 Login With Valid Credentials
     When Login with QA user credentials
     Then Login should be successfully
 

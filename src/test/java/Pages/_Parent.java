@@ -7,7 +7,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -27,8 +26,8 @@ public class _Parent {
         waitUntilVisible(element);
         waitUntilClickable(element);
         scrollToElement(element);
-        clearTextArea(element);
-//        element.clear(); -> it did not work for across app. check it later!
+//        clearTextArea(element);
+//        element.clear(); //-> it did not work for across app. check it later!
         element.sendKeys(value);
 
     }
@@ -72,7 +71,7 @@ public class _Parent {
     {
 
         waitUntilVisible(element);
-//        waitUntilClickable(element);
+        waitElementContainsText(element,text);
         System.out.println("element.getText() = " + element.getText());
         Assert.assertTrue(element.getText().toLowerCase().contains(text.toLowerCase()));
 
@@ -132,10 +131,27 @@ public class _Parent {
         wait.until(ExpectedConditions.urlContains(element));
 
     }
+
     public void waitUntilTitleIs(String element)
     {
 
         wait.until(ExpectedConditions.titleIs(element));
+
+    }
+
+    public void waitElementContainsText(WebElement element, String string)
+    {
+
+//        wait.until(ExpectedConditions.textToBePresentInElement(element, string)); // --> with that all text should be same
+
+        wait.until(webDriver -> {
+            try {
+                String elementText = element.getText();
+                return elementText != null && elementText.toLowerCase().contains(string.toLowerCase());
+            } catch (Exception e) {
+                return false;
+            }
+        });
 
     }
 
