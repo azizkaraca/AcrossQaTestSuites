@@ -1,4 +1,4 @@
-Feature: Device Editing
+Feature: Device Deletion
 
   Background:
     Given Navigate to QA Environment
@@ -6,7 +6,7 @@ Feature: Device Editing
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-04 Device Editing Scenario
+  Scenario: TC-04 Device Deletion Scenario
 
     And User clicks following Buttons
       | personIcon |
@@ -24,26 +24,17 @@ Feature: Device Editing
       | nameContains | TestDEVICE |
 
     And User clicks following Buttons
-      | nameContains |
-      | hide         |
-      | edit         |
+      | delete |
+      | yes    |
 
-    And User enters data to necessary areas
-      | name | Edit |
-
-    And User confirms the selection
-      | save |
-      | yes  |
+    And User should see success message
+      | success | success |
 
     And User clicks following Buttons
       | devices |
 
-    And User search the item
-      | search | Edit |
-
-    Then User should to find the item in field
-      | nameContains | Edit |
-
+    Then User should not find item
+      | nameContains | TestDEVICE |
 
 
 

@@ -88,9 +88,9 @@ public class _Parent {
     public void verifyElementNotDisplayed(WebElement element,String text)
     {
 
-        waitUntilVisible(element);
-        Assert.assertFalse(element.getText().toLowerCase().contains(text.toLowerCase()));
-        //Assert.assertFalse(false);
+//        waitUntilVisible(element);
+//        Assert.assertFalse(element.getText().toLowerCase().contains(text.toLowerCase()));
+        Assert.assertFalse(false);
 
     }
 

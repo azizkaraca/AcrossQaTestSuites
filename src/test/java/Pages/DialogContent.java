@@ -124,7 +124,7 @@ public class DialogContent extends _Parent {
     private WebElement searchButton;
     @FindBy(xpath = "//div[text()='TestDEVICE']")
     private WebElement TestDEVICE;
-    @FindBy(css = "[data-testid='DeleteIcon']")
+    @FindBy(xpath = "//span[text()='delete']")
     private WebElement delete;
     @FindBy(xpath = "//button[text()='Delete']")
     private WebElement delete2;
@@ -409,6 +409,7 @@ public class DialogContent extends _Parent {
             case "acrossLibrary": myElement = acrossLibrary;break;
             case "TestDEVICEin": myElement = TestDEVICEin;break;
             case "TestNameDevice": myElement = TestNameDevice;break;
+            case "delete": myElement = delete;break;
             case "delete2": myElement = delete2;break;
             case "delete3": myElement = delete3;break;
             case "registerEdit": myElement = registerEdit;break;
