@@ -1,1 +1,257 @@
-[{"line":1,"elements":[{"line":3,"name":"","description":"","type":"background","keyword":"Background","steps":[{"result":{"duration":4266000000,"status":"passed"},"line":4,"name":"Navigate to Web Page","match":{"location":"Steps.LoginSteps.navigateToWebPage()"},"keyword":"Given "}]},{"start_timestamp":"2023-04-28T06:14:51.579Z","before":[{"result":{"duration":1000000,"status":"passed"},"match":{"location":"Steps._Hooks.before()"}}],"line":13,"name":"TC-01 Login with valid username and valid password","description":"","id":"login-functionality;tc-01-login-with-valid-username-and-valid-password;;2","after":[{"result":{"duration":2675000000,"status":"passed"},"match":{"location":"Steps._Hooks.after(io.cucumber.java.Scenario)"}}],"type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"duration":583000000,"status":"passed"},"line":8,"name":"User Enters Email \"ppc@maseurope.com\" and Password \"Ppc123456!\" and Click Button","match":{"arguments":[{"val":"\"ppc@maseurope.com\"","offset":18},{"val":"\"Ppc123456!\"","offset":51}],"location":"Steps.LoginSteps.userEntersEmailAndPasswordAndClickButton(java.lang.String,java.lang.String)"},"keyword":"When "},{"result":{"duration":567000000,"status":"passed"},"line":9,"name":"User Should Login Successfully","match":{"location":"Steps.LoginSteps.userShouldLoginSuccessfully()"},"keyword":"Then "}],"tags":[{"name":"@SmokeTest"}]}],"name":"Login Functionality","description":"","id":"login-functionality","keyword":"Feature","uri":"file:src/test/java/Features/Login.feature","tags":[]},{"line":1,"elements":[{"line":3,"name":"","description":"","type":"background","keyword":"Background","steps":[{"result":{"duration":3083000000,"status":"passed"},"line":4,"name":"Navigate to Web Page","match":{"location":"Steps.LoginSteps.navigateToWebPage()"},"keyword":"Given "}]},{"start_timestamp":"2023-04-28T06:14:59.688Z","before":[{"result":{"status":"passed"},"match":{"location":"Steps._Hooks.before()"}}],"line":18,"name":"TC-02 Logout from Web Application","description":"","id":"logout-functionality;tc-02-logout-from-web-application;;2","after":[{"result":{"duration":2680000000,"status":"passed"},"match":{"location":"Steps._Hooks.after(io.cucumber.java.Scenario)"}}],"type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"duration":530000000,"status":"passed"},"line":9,"name":"User Enters Email \"ppc@maseurope.com\" and Password \"Ppc123456!\" and Click Button","match":{"arguments":[{"val":"\"ppc@maseurope.com\"","offset":18},{"val":"\"Ppc123456!\"","offset":51}],"location":"Steps.LoginSteps.userEntersEmailAndPasswordAndClickButton(java.lang.String,java.lang.String)"},"keyword":"When "},{"result":{"duration":594000000,"status":"passed"},"line":10,"name":"User Should Login Successfully","match":{"location":"Steps.LoginSteps.userShouldLoginSuccessfully()"},"keyword":"Then "},{"result":{"duration":323000000,"status":"passed"},"line":11,"name":"Change language to English","match":{"location":"Steps.LogoutSteps.changeLanguageToEnglish()"},"keyword":"And "},{"result":{"duration":523000000,"status":"passed"},"line":12,"name":"Go to MyAccount","match":{"location":"Steps.LogoutSteps.goToMyAccount()"},"keyword":"And "},{"result":{"duration":126000000,"status":"passed"},"line":13,"name":"Click Logout Button","match":{"location":"Steps.LogoutSteps.clickLogoutButton()"},"keyword":"And "},{"result":{"duration":530000000,"status":"passed"},"line":14,"name":"User Should Logout Successfully","match":{"location":"Steps.LogoutSteps.userShouldLogoutSuccessfully()"},"keyword":"Then "}],"tags":[{"name":"@SmokeTest"}]}],"name":"Logout Functionality","description":"","id":"logout-functionality","keyword":"Feature","uri":"file:src/test/java/Features/Logout.feature","tags":[]}]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4266000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to Web Page",
+            "match": {
+              "location": "Steps.LoginSteps.navigateToWebPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-28T06:14:51.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps._Hooks.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC-01 Login with valid username and valid password",
+        "description": "",
+        "id": "login-functionality;tc-01-login-with-valid-username-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2675000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps._Hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 583000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enters Email \"ppc@maseurope.com\" and Password \"Ppc123456!\" and Click Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ppc@maseurope.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Ppc123456!\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Steps.LoginSteps.userEntersEmailAndPasswordAndClickButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Should Login Successfully",
+            "match": {
+              "location": "Steps.LoginSteps.userShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3083000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to Web Page",
+            "match": {
+              "location": "Steps.LoginSteps.navigateToWebPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-28T06:14:59.688Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps._Hooks.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "TC-02 Logout from Web Application",
+        "description": "",
+        "id": "logout-functionality;tc-02-logout-from-web-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2680000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps._Hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 530000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enters Email \"ppc@maseurope.com\" and Password \"Ppc123456!\" and Click Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ppc@maseurope.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Ppc123456!\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Steps.LoginSteps.userEntersEmailAndPasswordAndClickButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 594000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should Login Successfully",
+            "match": {
+              "location": "Steps.LoginSteps.userShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 323000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Change language to English",
+            "match": {
+              "location": "Steps.LogoutSteps.changeLanguageToEnglish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 523000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Go to MyAccount",
+            "match": {
+              "location": "Steps.LogoutSteps.goToMyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Logout Button",
+            "match": {
+              "location": "Steps.LogoutSteps.clickLogoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Should Logout Successfully",
+            "match": {
+              "location": "Steps.LogoutSteps.userShouldLogoutSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Logout Functionality",
+    "description": "",
+    "id": "logout-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Logout.feature",
+    "tags": []
+  }
+]
