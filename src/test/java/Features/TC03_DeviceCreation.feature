@@ -12,7 +12,7 @@ Feature: Device Creation
       | personIcon |
       | library    |
       | devices    |
-      | newAdd     |
+      | plusIcon   |
 
     And User enters data to necessary areas
       | name        | TestDEVICE    |

@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250826_Update_1">
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-08-25 17.05/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC05_DeviceDeletion.feature" afterDir="false" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250827_Update_1">
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 01-09-25 09.26/test-output/screenshots/embedded1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Reports/TestReport 26-08-25 16.25/test-output/SparkReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Reports/TestReport 01-09-25 09.26/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Reports/TestReport 26-08-25 16.25/test-output/screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Reports/TestReport 26-08-25 16.43/test-output/SparkReport/Spark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Reports/TestReport 26-08-25 16.49/test-output/SparkReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Reports/TestReport 27-08-25 14.36/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC03_DeviceCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC03_DeviceCreation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/_Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/_Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/_Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/_Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/SmokeTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/SmokeTestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +67,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/src/test/java/Features",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.3448276",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AzizKaraca/IdeaProjects/AcrossQaTestSuites/src/test/java/Features&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3448276&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AzizKaraca\IdeaProjects\AcrossQaTestSuites\src\test\java\Features" />
@@ -112,14 +111,14 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.SmokeTestRunner">
-    <configuration name="Feature: TC02_Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC04_DeviceEditing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC02_Logout" />
+      <option name="SUGGESTED_NAME" value="Feature: TC04_DeviceEditing" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,15 +149,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-03 Device Creation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-04 Device Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC03_DeviceCreation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-03 Device Creation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-03 Device Creation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-03 Device Creation" />
+      <option name="NAME_FILTER" value="^TC\-04 Device Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-04 Device Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-04 Device Editing Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -207,10 +206,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SmokeTestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: TC-04 Device Editing Scenario" />
+        <item itemvalue="Cucumber Java.Feature: TC04_DeviceEditing" />
         <item itemvalue="Cucumber Java.Feature: TC05_DeviceDeletion" />
         <item itemvalue="TestNG.SmokeTestRunner (1)" />
-        <item itemvalue="Cucumber Java.Feature: TC02_Logout" />
-        <item itemvalue="Cucumber Java.Scenario: TC-03 Device Creation" />
       </list>
     </recent_temporary>
   </component>
@@ -330,14 +329,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00024" summary="20250822_Update XMLFiles">
-      <option name="closed" value="true" />
-      <created>1755857188759</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1755857188759</updated>
     </task>
     <task id="LOCAL-00025" summary="20250822_Update XMLFiles">
       <option name="closed" value="true" />
@@ -611,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756277566535</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="20250827_Update_1">
+      <option name="closed" value="true" />
+      <created>1756294674728</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1756294674728</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,7 +641,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="24.05 updated" />
     <MESSAGE value="31.05 updated" />
     <MESSAGE value="21.08 updated" />
     <MESSAGE value="29.08 updated" />
@@ -667,7 +665,8 @@
     <MESSAGE value="20250825_Update_8" />
     <MESSAGE value="20250825_Update_10" />
     <MESSAGE value="20250826_Update_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250826_Update_1" />
+    <MESSAGE value="20250827_Update_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250827_Update_1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
