@@ -13,7 +13,8 @@ import io.cucumber.testng.CucumberOptions;
 
 public class SmokeTestRunner extends AbstractTestNGCucumberTests {
 
-    // below block should be open if the job runs by in XML Files, so it can take the browser from there
+    // Below code block for cross browser tests which is run from XML Files
+    // It should be open if the job runs by in XML Files with, so it can take the browser from there
 
 //    @BeforeClass
 //    @Parameters("browser")

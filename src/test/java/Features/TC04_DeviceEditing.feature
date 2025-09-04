@@ -29,7 +29,7 @@ Feature: Device Editing
       | edit         |
 
     And User enters data to necessary areas
-      | name | Edit |
+      | name | TestDeviceEdit |
 
     And User confirms the selection
       | save |
@@ -39,10 +39,10 @@ Feature: Device Editing
       | devices |
 
     And User search the item
-      | search | Edit |
+      | search | TestDeviceEdit |
 
     Then User should to find the item in field
-      | nameContains | Edit |
+      | nameContains | TestDeviceEdit |
 
 
 

@@ -134,9 +134,11 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//img[@alt='User Logo']")
     private WebElement userLogo;
     @FindBy(xpath = "(//label[text()='Name']/following-sibling::div//i)")
-    private WebElement english;
-    @FindBy(xpath = "//i[@class='flag flag-24 flag-gr']")
+    private WebElement english1;
+    @FindBy(xpath = "//li[@data-value='el']")
     private WebElement greek;
+    @FindBy(xpath = "(//i[@class='flag flag-24 flag-gb'])[2]")
+    private WebElement english;
     @FindBy (xpath = "//span[text()='Shareable']")
     private WebElement shareable;
 

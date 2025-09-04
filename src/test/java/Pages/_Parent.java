@@ -26,8 +26,8 @@ public class _Parent {
         waitUntilVisible(element);
         waitUntilClickable(element);
         scrollToElement(element);
-//        clearTextArea(element);
-//        element.clear(); //-> it did not work for across app. check it later!
+        clearTextArea(element);
+        element.clear(); //-> it did not work for across app. check it later!
         element.sendKeys(value);
 
     }
