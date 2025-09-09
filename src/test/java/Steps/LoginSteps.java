@@ -21,6 +21,8 @@ public class LoginSteps {
     }
     @Given("Navigate to QA Environment")
     public void navigateToQAEnvironment() {GWD.getDriver().get("https://across-qa-v3.demo.i4.energy");}
+    @Given("Navigate to Testing Environment")
+    public void navigateToTestingEnvironment() {GWD.getDriver().get("https://across-testing-v3.demo.i4.energy/");}
 
     @When("User Enters Email {string} and Password {string} and Click Button")
     public void userEntersEmailAndPasswordAndClickButton(String username, String password)

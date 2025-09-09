@@ -40,7 +40,7 @@ public class GWD {
                     options.addArguments("--window-size=1920,1080");
                 } else {
                     options.addArguments("--start-maximized");
-                    options.addArguments("--incognito");
+//                    options.addArguments("--incognito");
                 }
                 threadDriver.set(new ChromeDriver(options));
             }

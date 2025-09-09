@@ -1,11 +1,18 @@
 package Steps;
 
 import Pages.DialogContent;
+import Utilities.GWD;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+import java.util.Date;
 import java.util.List;
 
 public class CreateDeviceStep {
@@ -140,4 +147,21 @@ public class CreateDeviceStep {
         }
     }
 
+    @And("User clicks hide button if the alert exist")
+    public void userClicksHideButtonIfTheAlertExist(DataTable element) {
+
+        List<String> listElement = element.asList(String.class);
+
+        if (!listElement.isEmpty()) {
+            for (int i = 0; i < listElement.size(); i++) {
+                try {
+                    WebDriverWait shortWait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(2));
+                    WebElement el = shortWait.until(ExpectedConditions.elementToBeClickable(By.xpath(listElement.get(i))));
+                    el.click();
+                } catch (Exception e) {
+                    System.out.println(listElement.get(i) + " button is not detected within 2s");
+                }
+            }
+        }
+    }
 }

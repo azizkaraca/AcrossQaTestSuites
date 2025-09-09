@@ -9,7 +9,7 @@ Feature: Register Creation
   Scenario: TC-06 Register Creation Scenario
 
     And User clicks following Buttons
-      | personIcon |
+      | menuBar |
       | library    |
       | devices    |
 

@@ -9,7 +9,7 @@ Feature: Device Editing
   Scenario: TC-04 Device Editing Scenario
 
     And User clicks following Buttons
-      | personIcon |
+      | menuBar |
       | library    |
       | devices    |
       | search     |
@@ -25,8 +25,13 @@ Feature: Device Editing
 
     And User clicks following Buttons
       | nameContains |
-      | hide         |
-      | edit         |
+
+
+    And User clicks hide button if the alert exist
+      | hide |
+
+    And User clicks following Buttons
+      | edit |
 
     And User enters data to necessary areas
       | name | TestDeviceEdit |

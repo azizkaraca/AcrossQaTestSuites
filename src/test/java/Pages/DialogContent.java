@@ -29,8 +29,10 @@ public class DialogContent extends _Parent {
     private WebElement burgerMenu;
     @FindBy(css = "[data-testid='ExpandMoreIcon']")
     private WebElement downArrow;
-    @FindBy(xpath = "(//*[@data-testid='PersonIcon'])[1]")
-    private WebElement personIcon;
+//    @FindBy(xpath = "(//*[@data-testid='PersonIcon'])[1]")
+//    private WebElement personIcon;
+    @FindBy(xpath = "//div[@class='scrollbar-container jss9 ps ps--active-x']")
+    private WebElement menuBar;
     @FindBy(xpath = "//*[@data-testid='ExitToAppIcon']")
     private WebElement logout;
     @FindBy(xpath = "//label[text()='First Name']/following-sibling::div//input")
@@ -228,7 +230,7 @@ public class DialogContent extends _Parent {
             case "description": myElement = description;break;
             case "sendAnyway": myElement = sendAnyway;break;
             case "userLogo": myElement = userLogo;break;
-            case "personIcon": myElement = personIcon;break;
+            case "menuBar": myElement = menuBar;break;
             case "english": myElement = english;break;
             case "greek": myElement = greek;break;
             case "shareable": myElement = shareable;break;

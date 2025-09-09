@@ -9,7 +9,7 @@ Feature: Device Deletion
   Scenario: TC-04 Device Deletion Scenario
 
     And User clicks following Buttons
-      | personIcon |
+      | menuBar |
       | library    |
       | devices    |
       | search     |

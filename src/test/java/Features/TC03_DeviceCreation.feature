@@ -9,7 +9,7 @@ Feature: Device Creation
   Scenario: TC-03 Device Creation Scenario
 
     And User clicks following Buttons
-      | personIcon |
+      | menuBar |
       | library    |
       | devices    |
       | plusIcon   |
