@@ -153,15 +153,8 @@ public class CreateDeviceStep {
         List<String> listElement = element.asList(String.class);
 
         if (!listElement.isEmpty()) {
-            for (int i = 0; i < listElement.size(); i++) {
-                try {
-                    WebDriverWait shortWait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(2));
-                    WebElement el = shortWait.until(ExpectedConditions.elementToBeClickable(By.xpath(listElement.get(i))));
-                    el.click();
-                } catch (Exception e) {
-                    System.out.println(listElement.get(i) + " button is not detected within 2s");
-                }
-            }
+            for (int i = 0; i < listElement.size(); i++)
+                dc.clickElementIfExist(listElement.get(i));
         }
     }
 }

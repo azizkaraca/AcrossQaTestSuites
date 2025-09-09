@@ -1,10 +1,7 @@
 package Pages;
 
 import Utilities.GWD;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -72,7 +69,7 @@ public class _Parent {
 
         waitUntilVisible(element);
         waitElementContainsText(element,text);
-        System.out.println("element.getText() = " + element.getText());
+//        System.out.println("element.getText() = " + element.getText());
         Assert.assertTrue(element.getText().toLowerCase().contains(text.toLowerCase()));
 
     }
@@ -305,6 +302,16 @@ public class _Parent {
         robot.keyRelease(KeyEvent.VK_MINUS);
         robot.keyRelease(KeyEvent.VK_CONTROL);
 
+    }
+
+    public void skipClickIfElementNotExist(WebElement element) {
+        try {
+            WebDriverWait shortWait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(2));
+            WebElement el = shortWait.until(ExpectedConditions.elementToBeClickable(element));
+            el.click();
+        } catch (TimeoutException e) {
+//            System.out.println("Element is not detected within 2s");
+        }
     }
 
 }

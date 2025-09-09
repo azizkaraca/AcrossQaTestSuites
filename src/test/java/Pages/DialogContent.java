@@ -276,7 +276,6 @@ public class DialogContent extends _Parent {
         switch (strElement) {
 //            case "blankArea": myElement = blankArea;break;
 
-
         }
         rightClickActions(myElement);
     }
@@ -315,4 +314,12 @@ public class DialogContent extends _Parent {
 
         dragAndDropFunction(source, target);
     }
+
+    public void clickElementIfExist(String strElement) {
+        switch (strElement) {
+            case "hide": myElement = hide;break;
+        }
+        skipClickIfElementNotExist(myElement);
+    }
+
 }
