@@ -10,8 +10,8 @@ Feature: Register Creation
 
     And User clicks following Buttons
       | menuBar |
-      | library    |
-      | devices    |
+      | library |
+      | devices |
 
     And User search the item
       | search | TestDEVICE |
