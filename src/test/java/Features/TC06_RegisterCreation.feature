@@ -1,7 +1,7 @@
 Feature: Register Creation
 
   Background:
-    Given Navigate to QA Environment
+    Given Navigate to Testing Environment
     When Login with QA user credentials
     Then Login should be successfully
 
