@@ -15,132 +15,195 @@ public class DialogContent extends _Parent {
 
     @FindBy(css = "[name='username']")
     private WebElement username;
+
     @FindBy(css = "[type='Password']")
     private WebElement password;
+
     @FindBy(id = "kc-login")
     private WebElement loginButton;
+
     @FindBy(id = "proceed-button")
     private WebElement sendAnyway;
+
     @FindBy(css = "[aria-controls='language-switcher']")
     private WebElement languageButton;
+
     @FindBy (xpath = "//h4[text()='English']/parent::div")
     private WebElement languageSwitch;
+
     @FindBy(css = "[data-testid='MenuIcon']")
     private WebElement burgerMenu;
+
     @FindBy(css = "[data-testid='ExpandMoreIcon']")
     private WebElement downArrow;
+
 //    @FindBy(xpath = "(//*[@data-testid='PersonIcon'])[1]")
 //    private WebElement personIcon;
     @FindBy(xpath = "//div[@class='scrollbar-container jss9 ps ps--active-x']")
     private WebElement menuBar;
+
     @FindBy(xpath = "//*[@data-testid='ExitToAppIcon']")
     private WebElement logout;
+
     @FindBy(xpath = "//label[text()='First Name']/following-sibling::div//input")
     private WebElement firstName;
+
     @FindBy(xpath = "(//label[text()='Name']/following-sibling::div//input)[2]")
     private WebElement name;
+
     @FindBy(xpath = "//span[text()='Devices']")
     private WebElement devices;
+
     @FindBy(xpath = "//button[text()='Hide']")
     private WebElement hide;
+
     @FindBy(xpath = "//span[text()='edit']")
     private WebElement edit;
+
     @FindBy(css = "//span[text()='category']")
     private WebElement category;
+
     @FindBy(xpath = "//span[contains(text(),'add')]")
     private WebElement plusIcon;
+
     @FindBy(xpath = "//div[text()='Solar Panel']")
     private WebElement solarPanel;
+
     @FindBy(xpath = "//button[text()='Confirm']")
     private WebElement confirm;
+
     @FindBy(xpath = "//button[text()='Yes']")
     private WebElement yes;
+
     @FindBy(xpath = "//button[text()='No']")
     private WebElement no;
+
     @FindBy(xpath = "//span[text()='Library']")
     private WebElement library;
+
     @FindBy(xpath = "//label[text()='Model']/following-sibling::div//input")
     private WebElement model;
+
     @FindBy(xpath = "//label[text()='Website']/following-sibling::div//input")
     private WebElement webSite;
+
     @FindBy(xpath = "//label[text()='Description']//following::input[2]")
     private WebElement description;
+
     @FindBy(xpath = "//label[text()='Manufacturer']//following::div")
     private WebElement manufacturer;
+
     @FindBy(xpath = "//span[text()='MAS']")
     private WebElement mas;
+
     @FindBy(xpath = "(//label[text()='Protocol']/following::div)[1]")
     private WebElement protocol;
+
     @FindBy(xpath = "//span[contains(text(),'Modbus')]")
     private WebElement modbus;
+
     @FindBy(xpath = "//h6[text()='Engine']")
     private WebElement engine;
+
     @FindBy(xpath = "//p[text()='Heat Engine']")
     private WebElement heatEngine;
+
     @FindBy(xpath = "//button[text()='Save']")
     private WebElement saveButton;
+
     @FindBy(xpath = "//label[contains(text(),'Search')]/following-sibling::div//input")
     private WebElement search;
+
     @FindBy(xpath = "//span[text()='search']")
     private WebElement searchButton;
+
     @FindBy(xpath = "//div[text()='TestDEVICE']")
     private WebElement TestDEVICE;
+
     @FindBy(xpath = "//span[text()='delete']")
     private WebElement delete; // in table views
+
     @FindBy(xpath = "//span[text()='arrow_forward']")
     private WebElement arrowButton; // in table views
+
     @FindBy(xpath = "//button[text()='Delete']")
     private WebElement delete2; // in custom data template delete button, there is func with that
+
     @FindBy(xpath = "//label[text()='Display Name']//following::input[2]")
     private WebElement displayName; // in registers creation or editing
+
     @FindBy(xpath = "//label[text()='Register Name']/following-sibling::div//input")
     private WebElement registerName;
+
     @FindBy(xpath = "//label[text()='Address']//following::input[1]")
     private WebElement registerAddress;
+
     @FindBy(xpath = "//label[text()='Scan Rate']//following::input[1]")
     private WebElement scanRate; // in registers creation or editing
+
     @FindBy(xpath = "(//p[text()='Alarms'])")
     private WebElement alarms;
+
     @FindBy(xpath = "//label[text()='Type']/following-sibling::div")
     private WebElement type;
+
     @FindBy(xpath = "//li[text()='Digital']")
     private WebElement digital;
+
     @FindBy(xpath = "//label[text()='Category']/following-sibling::div")
     private WebElement categorySelect;
+
     @FindBy(xpath = "//span[text()='Category 1']/parent::li")
     private WebElement category1;
+
     @FindBy(xpath = "//label[text()='Focus Register']/following-sibling::div//button")
     private WebElement focusRegister;
+
     @FindBy(xpath = "//label[text()='Register']/following-sibling::div//button")
     private WebElement registerEdit;
+
     @FindBy(xpath = "//label[text()='Severity']/following-sibling::div")
     private WebElement severity;
+
     @FindBy(xpath = "//*[contains(text(),'uccess')]") // contains of success is uccess bcs of upper lower case of "S-s"
     private WebElement success;
+
     @FindBy(xpath = "//label[contains(text(),'Connections')]/following-sibling::div//input")
     private WebElement connections;
+
     @FindBy(xpath = "//p[text()='Registers']")
     private WebElement registers;
+
     @FindBy(xpath = "//p[text()='Calculated Registers']")
     private WebElement calculated;
+
     @FindBy(xpath = "(//div[contains(@data-field,'ame')])[2]//div") // contains of name is "ame"
     private WebElement nameContains;
+
     @FindBy(xpath = "//p[text()='Info']")
     private WebElement info;
+
     @FindBy(id = "rglContainer")
     private WebElement mainBoard;
+
     @FindBy(xpath = "//p[text()='Button']/parent::div/parent::div/parent::div")
     private WebElement buttonDrag;
+
     @FindBy(xpath = "//p[text()='Wind Direction']/parent::div/parent::div")
     private WebElement windDrag;
+
     @FindBy(xpath = "//img[@alt='User Logo']")
     private WebElement userLogo;
+
     @FindBy(xpath = "(//label[text()='Name']/following-sibling::div//i)")
     private WebElement english1;
+
     @FindBy(xpath = "//li[@data-value='el']")
     private WebElement greek;
+
     @FindBy(xpath = "(//i[@class='flag flag-24 flag-gb'])[2]")
     private WebElement english;
+
     @FindBy (xpath = "//span[text()='Shareable']")
     private WebElement shareable;
 
@@ -166,7 +229,8 @@ public class DialogContent extends _Parent {
 //    List<WebElement> myElementList; --> I dont need it since I am not going to use any method in dc class
 
 
-    public void findAndSend(String strElement, String value) {
+    public void findAndSend(String strElement, String value)
+    {
         switch (strElement) {
             case "username": myElement = username;break;
             case "password": myElement = password;break;
@@ -187,7 +251,8 @@ public class DialogContent extends _Parent {
         sendKeysFunction(myElement, value);
     }
 
-    public void findAndClick(String strElement) {
+    public void findAndClick(String strElement)
+    {
         switch (strElement) {
             case "loginButton": myElement = loginButton;break;
             case "languageButton": myElement = languageButton;break;
@@ -241,7 +306,8 @@ public class DialogContent extends _Parent {
         clickFunction(myElement);
     }
 
-    public void findAndVerify(String strElement) {
+    public void findAndVerify(String strElement)
+    {
         switch (strElement) {
             case "loginButton": myElement = loginButton;break;
             case "userLogo": myElement = userLogo;break;
@@ -260,7 +326,8 @@ public class DialogContent extends _Parent {
         clickLongFunction(myElement);
     }
 
-    public void findAndVerify(String strElement, String text) {
+    public void findAndVerify(String strElement, String text)
+    {
         switch (strElement) {
             case "solarPanel": myElement = solarPanel;break;
             case "TestDEVICE": myElement = TestDEVICE;break;
@@ -272,7 +339,8 @@ public class DialogContent extends _Parent {
         verifyContainsText(myElement, text);
     }
 
-    public void rightClick(String strElement) {
+    public void rightClick(String strElement)
+    {
         switch (strElement) {
 //            case "blankArea": myElement = blankArea;break;
 
@@ -280,18 +348,22 @@ public class DialogContent extends _Parent {
         rightClickActions(myElement);
     }
 
-    public void deleteItem(){
+    public void deleteItem()
+    {
         clickFunction(delete2);
+
     }
 
-    public void waitUntilProgressFinish(String strElement){
+    public void waitUntilProgressFinish(String strElement)
+    {
         switch (strElement) {
             case "confirm": myElement = confirm;break;
         }
         waitUntilClickable(myElement);
     }
 
-    public void verifyNotDisplayed(String strElement, String value) {
+    public void verifyNotDisplayed(String strElement, String value)
+    {
         switch (strElement) {
             case "nameContains": myElement = nameContains;break;
 
@@ -315,7 +387,8 @@ public class DialogContent extends _Parent {
         dragAndDropFunction(source, target);
     }
 
-    public void clickElementIfExist(String strElement) {
+    public void clickElementIfExist(String strElement)
+    {
         switch (strElement) {
             case "hide": myElement = hide;break;
         }

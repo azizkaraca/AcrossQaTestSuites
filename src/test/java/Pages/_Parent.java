@@ -304,7 +304,8 @@ public class _Parent {
 
     }
 
-    public void skipClickIfElementNotExist(WebElement element) {
+    public void skipClickIfElementNotExist(WebElement element)
+    {
         try {
             WebDriverWait shortWait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(2));
             WebElement el = shortWait.until(ExpectedConditions.elementToBeClickable(element));

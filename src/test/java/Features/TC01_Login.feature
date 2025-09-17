@@ -1,7 +1,7 @@
 Feature: Login
 
   Background:
-    Given Navigate to QA Environment
+    Given Navigate to Testing Environment
 
   @SmokeTest @Regression
     Scenario: TC-01 Login With Valid Credentials

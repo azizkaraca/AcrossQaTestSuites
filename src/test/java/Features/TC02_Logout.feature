@@ -1,7 +1,7 @@
 Feature: Logout
 
   Background:
-    Given Navigate to QA Environment
+    Given Navigate to Testing Environment
 
   @SmokeTest @Regression
   Scenario: TC-02 Logout From Application
