@@ -26,7 +26,6 @@ Feature: Device Editing
     And User clicks following Buttons
       | nameContains |
 
-
     And User clicks hide button if the alert exist
       | hide |
 

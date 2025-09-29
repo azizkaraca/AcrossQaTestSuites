@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250909_Update_3">
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20250917_Update_Testing_Env_1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC07_RegisterEditing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC08_RegisterDeletion.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/_Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/_Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC06_RegisterCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC06_RegisterCreation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/_Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/_Parent.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,15 +108,15 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC03_DeviceCreation">
-    <configuration name="Feature: TC02_Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC08_RegisterDeletion">
+    <configuration name="Feature: TC01_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC02_Logout" />
+      <option name="SUGGESTED_NAME" value="Feature: TC01_Login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -145,44 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC04_DeviceEditing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC04_DeviceEditing" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: TC05_DeviceDeletion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC05_DeviceDeletion.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC05_DeviceDeletion" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: TC06_RegisterCreation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC06_RegisterCreation.feature" />
@@ -202,30 +166,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC07_RegisterEditing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC07_RegisterEditing.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TC07_RegisterEditing" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.SmokeTestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: TC08_RegisterDeletion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC08_RegisterDeletion.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AcrossQaTestSuites" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TC08_RegisterDeletion" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC03_DeviceCreation" />
+        <item itemvalue="Cucumber Java.Feature: TC08_RegisterDeletion" />
+        <item itemvalue="Cucumber Java.Feature: TC07_RegisterEditing" />
         <item itemvalue="Cucumber Java.Feature: TC06_RegisterCreation" />
-        <item itemvalue="Cucumber Java.Feature: TC05_DeviceDeletion" />
-        <item itemvalue="Cucumber Java.Feature: TC04_DeviceEditing" />
-        <item itemvalue="Cucumber Java.Feature: TC02_Logout" />
+        <item itemvalue="Cucumber Java.Feature: TC01_Login" />
+        <item itemvalue="Cucumber Java.Feature: TC03_DeviceCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -345,22 +330,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00031" summary="20250822_New Name">
-      <option name="closed" value="true" />
-      <created>1755862585629</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1755862585629</updated>
-    </task>
-    <task id="LOCAL-00032" summary="20250822_New Name">
-      <option name="closed" value="true" />
-      <created>1755868496973</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1755868496973</updated>
     </task>
     <task id="LOCAL-00033" summary="20250822_New Name">
       <option name="closed" value="true" />
@@ -626,7 +595,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757412929406</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="20250917_Update_Testing_Env_1">
+      <option name="closed" value="true" />
+      <created>1758108085071</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1758108085071</updated>
+    </task>
+    <task id="LOCAL-00067" summary="20250917_Update_Testing_Env_1">
+      <option name="closed" value="true" />
+      <created>1758108097599</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1758108097599</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +642,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="07.09.23 updated" />
     <MESSAGE value="08.09 updated" />
     <MESSAGE value="09.10 updated" />
     <MESSAGE value="10.04 updated" />
@@ -682,7 +666,8 @@
     <MESSAGE value="20250909_Update_1" />
     <MESSAGE value="20250909_Update_2" />
     <MESSAGE value="20250909_Update_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250909_Update_3" />
+    <MESSAGE value="20250917_Update_Testing_Env_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250917_Update_Testing_Env_1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

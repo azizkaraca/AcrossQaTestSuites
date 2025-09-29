@@ -1,4 +1,4 @@
-Feature: Register Creation
+Feature: Register Editing
 
   Background:
     Given Navigate to Testing Environment
@@ -6,7 +6,7 @@ Feature: Register Creation
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-06 Register Creation Scenario
+  Scenario: TC-07 Register Editing Scenario
 
     And User clicks following Buttons
       | menuBar |
@@ -25,28 +25,39 @@ Feature: Register Creation
     And User clicks following Buttons
       | nameContains |
       | registers    |
-      | plusIcon     |
+
+    And User search the item
+      | search | TestRegisterEdit |
+
+    And User clicks following Buttons
+      | searchButton |
+
+    Then User should to find the item in field
+      | nameContains | TestRegisterEdit |
+
+    And User clicks following Buttons
+      | edit |
 
     And User enters data to necessary areas
-      | registerName    | TestRegister       |
-      | displayName     | TestRegister       |
-      | description     | RegisterForDevice  |
-      | registerAddress | AddressForRegister |
-      | scanRate        | 7000               |
+      | registerName    | TestRegisterEdit       |
+      | displayName     | TestRegisterEdit       |
+      | description     | RegisterForDeviceEdit  |
+      | registerAddress | AddressForRegisterEdit |
+      | scanRate        | 7007                   |
 
     And User changes languages of relevant fields
       | english |
       | greek   |
 
     And User enters data to necessary areas
-      | displayName | TestRegister EL|
+      | displayName | TestRegisterEdit EL|
 
     And User changes languages of relevant fields
       | english |
       | greek   |
 
     And User enters data to necessary areas
-      | description | RegisterForDevice EL|
+      | description | RegisterForDeviceEdit EL|
 
     And User confirms the selection
       | save |
@@ -56,9 +67,9 @@ Feature: Register Creation
       | success | success |
 
     And User search the item
-      | search | TestRegister |
+      | search | TestRegisterEdit |
 
     Then User should to find the item in field
-      | nameContains | TestRegister |
+      | nameContains | TestRegisterEdit |
 
 
