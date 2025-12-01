@@ -8,7 +8,7 @@ Feature: Register Deletion
   @SmokeTest @Regression
   Scenario: TC-08 Register Deletion Scenario
 
-    And User clicks following Buttons
+    And User clicks following Items
       | menuBar |
       | library |
       | devices |
@@ -16,33 +16,33 @@ Feature: Register Deletion
     And User search the item
       | search | TestDEVICE |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
       | nameContains | TestDEVICE |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | nameContains |
       | registers    |
 
     And User search the item
       | search | TestRegisterEdit |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
       | nameContains | TestRegisterEdit |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | delete |
       | yes    |
 
-    Then User should see success message
+    Then User should see verify message
       | success | success |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | registers |
 
     And User search the item

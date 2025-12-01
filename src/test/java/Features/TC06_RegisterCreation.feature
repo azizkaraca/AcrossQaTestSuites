@@ -8,7 +8,7 @@ Feature: Register Creation
   @SmokeTest @Regression
   Scenario: TC-06 Register Creation Scenario
 
-    And User clicks following Buttons
+    And User clicks following Items
       | menuBar |
       | library |
       | devices |
@@ -16,13 +16,13 @@ Feature: Register Creation
     And User search the item
       | search | TestDEVICE |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
       | nameContains | TestDEVICE |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | nameContains |
       | registers    |
       | plusIcon     |
@@ -52,7 +52,7 @@ Feature: Register Creation
       | save |
       | yes  |
 
-    Then User should see success message
+    Then User should see verify message
       | success | success |
 
     And User search the item

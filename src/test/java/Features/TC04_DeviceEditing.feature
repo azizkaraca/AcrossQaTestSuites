@@ -8,28 +8,23 @@ Feature: Device Editing
   @SmokeTest @Regression
   Scenario: TC-04 Device Editing Scenario
 
-    And User clicks following Buttons
-      | menuBar |
-      | library    |
-      | devices    |
-      | search     |
+    And User clicks following dynamic elements
+      | Library |
+      | Devices |
 
     And User search the item
       | search | TestDEVICE |
 
-    And User clicks following Buttons
-      | searchButton |
+    And User clicks following dynamic elements
+      | search |
 
-    Then User should to find the item in field
-      | nameContains | TestDEVICE |
-
-    And User clicks following Buttons
-      | nameContains |
+    And User clicks following dynamic elements
+      | TestDEVICE |
 
     And User clicks hide button if the alert exist
       | hide |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | edit |
 
     And User enters data to necessary areas
@@ -39,7 +34,7 @@ Feature: Device Editing
       | save |
       | yes  |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | devices |
 
     And User search the item

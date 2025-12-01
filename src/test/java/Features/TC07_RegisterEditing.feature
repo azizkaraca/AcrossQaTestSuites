@@ -8,7 +8,7 @@ Feature: Register Editing
   @SmokeTest @Regression
   Scenario: TC-07 Register Editing Scenario
 
-    And User clicks following Buttons
+    And User clicks following Items
       | menuBar |
       | library |
       | devices |
@@ -16,26 +16,26 @@ Feature: Register Editing
     And User search the item
       | search | TestDEVICE |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
       | nameContains | TestDEVICE |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | nameContains |
       | registers    |
 
     And User search the item
-      | search | TestRegisterEdit |
+      | search | TestRegister |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
-      | nameContains | TestRegisterEdit |
+      | nameContains | TestRegister |
 
-    And User clicks following Buttons
+    And User clicks following Items
       | edit |
 
     And User enters data to necessary areas
@@ -63,7 +63,7 @@ Feature: Register Editing
       | save |
       | yes  |
 
-    Then User should see success message
+    Then User should see verify message
       | success | success |
 
     And User search the item

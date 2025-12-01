@@ -1,9 +1,11 @@
 package Pages;
 
 import Utilities.GWD;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -37,8 +39,6 @@ public class DialogContent extends _Parent {
     @FindBy(css = "[data-testid='ExpandMoreIcon']")
     private WebElement downArrow;
 
-//    @FindBy(xpath = "(//*[@data-testid='PersonIcon'])[1]")
-//    private WebElement personIcon;
     @FindBy(xpath = "//div[@class='scrollbar-container jss9 ps ps--active-x']")
     private WebElement menuBar;
 
@@ -60,11 +60,35 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//span[text()='edit']")
     private WebElement edit;
 
-    @FindBy(css = "//span[text()='category']")
+    @FindBy(xpath = "//span[text()='category']")
     private WebElement category;
+
+    @FindBy(css = "span[title='Categories']")
+    private WebElement categories;
+
+    @FindBy(css = "span[title='Entities']")
+    private WebElement entities;
+
+    @FindBy(css = "span[title='Custom Data Templates Category']")
+    private WebElement customDataCategory;
+
+    @FindBy(xpath = "//div[@title='TestCustomEntityCategory']/following-sibling::button[2]")
+    private WebElement deletecatdata;
+
+    @FindBy(css = "span[title='Custom Entity Templates Category']")
+    private WebElement customEntityCategory;
+
+    @FindBy(xpath = "//p[text()='Customer Categories']")
+    private WebElement customerCategories;
 
     @FindBy(xpath = "//span[contains(text(),'add')]")
     private WebElement plusIcon;
+
+    @FindBy(xpath = "(//*[contains(text(),'Create')])[2]")
+    private WebElement create;
+
+    @FindBy(xpath = "//span[text()='Active']")
+    private WebElement active;
 
     @FindBy(xpath = "//div[text()='Solar Panel']")
     private WebElement solarPanel;
@@ -168,6 +192,9 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//*[contains(text(),'uccess')]") // contains of success is uccess bcs of upper lower case of "S-s"
     private WebElement success;
 
+    @FindBy(xpath = "//*[contains(text(),'exists')]")
+    private WebElement exists;
+
     @FindBy(xpath = "//label[contains(text(),'Connections')]/following-sibling::div//input")
     private WebElement connections;
 
@@ -207,6 +234,7 @@ public class DialogContent extends _Parent {
     @FindBy (xpath = "//span[text()='Shareable']")
     private WebElement shareable;
 
+
     // List Elements locate below this line
 
     @FindBy(xpath = "//div[contains(@class,'MuiDataGrid-row')]//div[@data-field='name']")
@@ -220,7 +248,6 @@ public class DialogContent extends _Parent {
 
     @FindBy(xpath = "//div[@data-field='name']")
     public List<WebElement> nameList;
-
 
     WebElement source; // it is created for drag and drop.
     WebElement target; // it is created for drag and drop.
@@ -298,8 +325,13 @@ public class DialogContent extends _Parent {
             case "menuBar": myElement = menuBar;break;
             case "english": myElement = english;break;
             case "greek": myElement = greek;break;
-            case "shareable": myElement = shareable;break;
-            case "hide": myElement = hide;break;
+            case "categories": myElement = categories;break;
+            case "customDataCategory": myElement = customDataCategory;break;
+            case "customerCategories": myElement = customerCategories;break;
+            case "create": myElement = create;break;
+            case "active": myElement = active;break;
+            case "customEntityCategory": myElement = customEntityCategory;break;
+            case "deletecatdata": myElement = deletecatdata;break;
 
 
         }
@@ -333,6 +365,7 @@ public class DialogContent extends _Parent {
             case "TestDEVICE": myElement = TestDEVICE;break;
             case "success": myElement = success;break;
             case "nameContains": myElement = nameContains;break;
+            case "exists": myElement = exists;break;
 
 
         }

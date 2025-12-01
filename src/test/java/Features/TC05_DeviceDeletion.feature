@@ -8,33 +8,26 @@ Feature: Device Deletion
   @SmokeTest @Regression
   Scenario: TC-04 Device Deletion Scenario
 
-    And User clicks following Buttons
-      | menuBar |
-      | library    |
-      | devices    |
-      | search     |
+    And User clicks following dynamic elements
+      | Library |
+      | Devices |
 
     And User search the item
-      | search | TestDEVICE |
+      | search | TestDeviceEdit |
 
-    And User clicks following Buttons
-      | searchButton |
-
-    Then User should to find the item in field
-      | nameContains | TestDEVICE |
-
-    And User clicks following Buttons
+    And User clicks following dynamic elements
+      | search |
       | delete |
-      | yes    |
+      | Yes    |
 
-    And User should see success message
+    And User should see verify message
       | success | success |
 
-    And User clicks following Buttons
-      | devices |
+    And User clicks following dynamic elements
+      | Devices |
 
     Then User should not find item
-      | nameContains | TestDEVICE |
+      | nameContains | TestDeviceEdit |
 
 
 

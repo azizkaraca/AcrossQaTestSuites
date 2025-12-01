@@ -15,7 +15,8 @@ import java.util.List;
 
 public class _Parent {
 
-    WebDriverWait wait=new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(20));
+    protected WebDriver driver = GWD.getDriver();
+    protected WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
     public void sendKeysFunction(WebElement element, String value)
     {
@@ -38,8 +39,8 @@ public class _Parent {
 
     public void clickFunction(WebElement element)
     {
-        waitUntilClickable(element);
         waitUntilVisible(element);
+        waitUntilClickable(element);
         scrollToElement(element);
         element.click();
 

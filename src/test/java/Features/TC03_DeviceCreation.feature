@@ -8,11 +8,10 @@ Feature: Device Creation
   @SmokeTest @Regression
   Scenario: TC-03 Device Creation Scenario
 
-    And User clicks following Buttons
-      | menuBar |
-      | library    |
-      | devices    |
-      | plusIcon   |
+    And User clicks following dynamic elements
+      | Library |
+      | Devices |
+      | Create  |
 
     And User enters data to necessary areas
       | name        | TestDEVICE    |
@@ -46,7 +45,7 @@ Feature: Device Creation
       | save |
       | yes  |
 
-    Then User should see success message
+    Then User should see verify message
       | success | success |
 
 
