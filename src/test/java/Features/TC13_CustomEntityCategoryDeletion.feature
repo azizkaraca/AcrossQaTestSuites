@@ -1,4 +1,4 @@
-Feature: Custom Entity Category Editing
+Feature: Custom Entity Category Deletion
 
   Background:
     Given Navigate to Testing Environment
@@ -6,29 +6,26 @@ Feature: Custom Entity Category Editing
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-15 Custom Entity Category Editing Scenario
+  Scenario: TC-13 Custom Entity Category Deletion Scenario
 
     And User clicks following Items
-      | menuBar            |
-      | categories         |
+#      | menuBar              |
+      | categories           |
       | customEntityCategory |
-      | customerCategories |
+      | customerCategories   |
 
     And User search the item
-      | search | TestCustomEntityCategory |
+      | search | EditTestCustomEntityCategory |
 
     And User clicks following Items
       | searchButton |
 
     And User clicks following dynamic elements
-      | edit | TestCustomEntityCategory |
-
-    And User enters data to necessary areas
-      | name | EditTestCustomEntityCategory |
-
-    And User confirms the selection
-      | save |
+      | delete  | EditTestCustomEntityCategory |
+      | confirm | Yes                          |
 
     Then User should see verify message
       | success | success |
 
+    And User clicks following dynamic elements
+      | click | Dashboard |

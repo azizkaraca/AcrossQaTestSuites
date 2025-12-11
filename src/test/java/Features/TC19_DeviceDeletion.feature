@@ -9,26 +9,28 @@ Feature: Device Deletion
   Scenario: TC-04 Device Deletion Scenario
 
     And User clicks following dynamic elements
-      | Library |
-      | Devices |
+      | click | Library |
+      | click | Devices |
 
     And User search the item
       | search | TestDeviceEdit |
 
     And User clicks following dynamic elements
-      | search |
-      | delete |
-      | Yes    |
+      | click | search |
+      | click | delete |
+      | click | Yes    |
 
     And User should see verify message
       | success | success |
 
     And User clicks following dynamic elements
-      | Devices |
+      | click | Devices |
 
     Then User should not find item
       | nameContains | TestDeviceEdit |
 
+    And User clicks following dynamic elements
+      | click | Dashboard |
 
 
 

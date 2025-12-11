@@ -9,17 +9,17 @@ Feature: Device Editing
   Scenario: TC-04 Device Editing Scenario
 
     And User clicks following dynamic elements
-      | Library |
-      | Devices |
+      | click | Library |
+      | click | Devices |
 
     And User search the item
       | search | TestDEVICE |
 
     And User clicks following dynamic elements
-      | search |
+      | click | search |
 
     And User clicks following dynamic elements
-      | TestDEVICE |
+      | click | TestDEVICE |
 
     And User clicks hide button if the alert exist
       | hide |
@@ -43,7 +43,8 @@ Feature: Device Editing
     Then User should to find the item in field
       | nameContains | TestDeviceEdit |
 
-
+    And User clicks following dynamic elements
+      | click | Dashboard |
 
 
 

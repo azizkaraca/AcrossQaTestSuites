@@ -6,10 +6,10 @@ Feature: Custom Data Category Editing
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-11 Custom Data Category Editing Scenario
+  Scenario: TC-08 Custom Data Category Editing Scenario
 
     And User clicks following Items
-      | menuBar            |
+#      | menuBar            |
       | categories         |
       | customDataCategory |
       | customerCategories |
@@ -32,3 +32,5 @@ Feature: Custom Data Category Editing
     Then User should see verify message
       | success | success |
 
+    And User clicks following dynamic elements
+      | click | Dashboard |

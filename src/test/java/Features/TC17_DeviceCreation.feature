@@ -9,9 +9,9 @@ Feature: Device Creation
   Scenario: TC-03 Device Creation Scenario
 
     And User clicks following dynamic elements
-      | Library |
-      | Devices |
-      | Create  |
+      | click | Library |
+      | click | Devices |
+      | click | Create  |
 
     And User enters data to necessary areas
       | name        | TestDEVICE    |
@@ -19,13 +19,13 @@ Feature: Device Creation
       | description | DeviceForTest |
 
     And User selects necessary areas
-      | protocol     |
-      | modbus       |
-      | manufacturer |
-      | mas          |
-      | edit         |
-      | engine       |
-      | heatEngine   |
+      | protocol       |
+      | modbus         |
+      | manufacturer   |
+      | mas            |
+      | deviceCategory |
+      | engine         |
+      | heatEngine     |
 
     And User press the Esc Button on Keyboard Times
       | 1 |
@@ -48,7 +48,8 @@ Feature: Device Creation
     Then User should see verify message
       | success | success |
 
-
+    And User clicks following dynamic elements
+      | click | Dashboard |
 
 
 

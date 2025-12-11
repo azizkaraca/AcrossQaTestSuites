@@ -1,4 +1,4 @@
-Feature: Custom Entity Category Creation
+Feature: Custom Entity Category Duplicate Creation
 
   Background:
     Given Navigate to Testing Environment
@@ -6,10 +6,10 @@ Feature: Custom Entity Category Creation
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-13 Custom Entity Category Creation Scenario
+  Scenario: TC-11 Custom Entity Category Duplicate Creation Scenario
 
     And User clicks following Items
-      | menuBar              |
+#      | menuBar              |
       | categories           |
       | customEntityCategory |
       | customerCategories   |
@@ -33,6 +33,7 @@ Feature: Custom Entity Category Creation
       | save |
 
     Then User should see verify message
-      | success | success |
+      | exists | exists |
 
-
+    And User clicks following dynamic elements
+      | click | Dashboard |

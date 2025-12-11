@@ -6,10 +6,10 @@ Feature: Custom Data Category Creation
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-09 Custom Data Category Creation Scenario
+  Scenario: TC-06 Custom Data Category Creation Scenario
 
     And User clicks following Items
-      | menuBar            |
+#      | menuBar            |
       | categories         |
       | customDataCategory |
       | customerCategories |
@@ -34,5 +34,8 @@ Feature: Custom Data Category Creation
 
     Then User should see verify message
       | success | success |
+
+    And User clicks following dynamic elements
+      | click | Dashboard |
 
 

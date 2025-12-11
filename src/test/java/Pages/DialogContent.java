@@ -45,6 +45,29 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//*[@data-testid='ExitToAppIcon']")
     private WebElement logout;
 
+    @FindBy(xpath = "//div[text()='Admin View']")
+    private WebElement adminView;
+
+    @FindBy(xpath = "//span[text()='Customer Menu']")
+    private WebElement customerMenu;
+
+    @FindBy(xpath = "//*[text()='Icon']/following-sibling::div//*[@title='icon']")
+    private WebElement menuIcon;
+
+    @FindBy(xpath = "//*[text()='Feature']/following-sibling::div//*[@title='feature']")
+    private WebElement menuFeature;
+
+    @FindBy(xpath = "//*[@data-testid='FolderIcon']/following-sibling::h6[text()='System Pages']")
+    private WebElement menuSystemPages;
+
+    @FindBy(xpath = "//*[text()='abc']")
+    private WebElement iconABC;
+
+    @FindBy(xpath = "//*[text()='Page Designer']")
+    private WebElement pageDesigner;
+
+
+
     @FindBy(xpath = "//label[text()='First Name']/following-sibling::div//input")
     private WebElement firstName;
 
@@ -62,6 +85,9 @@ public class DialogContent extends _Parent {
 
     @FindBy(xpath = "//span[text()='category']")
     private WebElement category;
+
+    @FindBy(xpath = "//*[text()='Category']/following-sibling::div//*[@title='category']")
+    private WebElement deviceCategory;
 
     @FindBy(css = "span[title='Categories']")
     private WebElement categories;
@@ -332,6 +358,14 @@ public class DialogContent extends _Parent {
             case "active": myElement = active;break;
             case "customEntityCategory": myElement = customEntityCategory;break;
             case "deletecatdata": myElement = deletecatdata;break;
+            case "adminView": myElement = adminView;break;
+            case "customerMenu": myElement = customerMenu;break;
+            case "deviceCategory": myElement = deviceCategory;break;
+            case "menuIcon": myElement = menuIcon;break;
+            case "iconABC": myElement = iconABC;break;
+            case "menuFeature": myElement = menuFeature;break;
+            case "menuSystemPages": myElement = menuSystemPages;break;
+            case "pageDesigner": myElement = pageDesigner;break;
 
 
         }

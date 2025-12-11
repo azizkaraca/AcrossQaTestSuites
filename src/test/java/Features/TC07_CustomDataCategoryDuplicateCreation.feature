@@ -1,4 +1,4 @@
-Feature: Custom Entity Category Duplicate Creation
+Feature: Custom Data Category Duplicate Creation
 
   Background:
     Given Navigate to Testing Environment
@@ -6,24 +6,24 @@ Feature: Custom Entity Category Duplicate Creation
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-14 Custom Entity Category Duplicate Creation Scenario
+  Scenario: TC-07 Custom Data Category Duplicate Creation Scenario
 
     And User clicks following Items
-      | menuBar              |
-      | categories           |
-      | customEntityCategory |
-      | customerCategories   |
-      | create               |
+#      | menuBar            |
+      | categories         |
+      | customDataCategory |
+      | customerCategories |
+      | create             |
 
     And User enters data to necessary areas
-      | name | TestCustomEntityCategory |
+      | name | TestCustomDataCategory |
 
     And User changes languages of relevant fields
       | english |
       | greek   |
 
     And User enters data to necessary areas
-      | name | TestCustomEntityCategory EL |
+      | name | TestCustomDataCategory EL |
 
     And User selects necessary areas
       | active |
@@ -35,3 +35,5 @@ Feature: Custom Entity Category Duplicate Creation
     Then User should see verify message
       | exists | exists |
 
+    And User clicks following dynamic elements
+      | click | Dashboard |

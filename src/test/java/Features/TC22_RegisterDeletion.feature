@@ -9,7 +9,6 @@ Feature: Register Deletion
   Scenario: TC-08 Register Deletion Scenario
 
     And User clicks following Items
-      | menuBar |
       | library |
       | devices |
 
@@ -51,4 +50,5 @@ Feature: Register Deletion
     Then User should not find item
       | nameContains | TestRegisterEdit |
 
-
+    And User clicks following dynamic elements
+      | click | Dashboard |

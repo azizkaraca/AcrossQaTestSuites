@@ -9,7 +9,6 @@ Feature: Register Creation
   Scenario: TC-06 Register Creation Scenario
 
     And User clicks following Items
-      | menuBar |
       | library |
       | devices |
 
@@ -61,4 +60,5 @@ Feature: Register Creation
     Then User should to find the item in field
       | nameContains | TestRegister |
 
-
+    And User clicks following dynamic elements
+      | click | Dashboard |

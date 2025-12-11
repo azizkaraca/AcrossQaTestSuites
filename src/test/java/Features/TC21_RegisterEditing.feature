@@ -9,7 +9,6 @@ Feature: Register Editing
   Scenario: TC-07 Register Editing Scenario
 
     And User clicks following Items
-      | menuBar |
       | library |
       | devices |
 
@@ -72,4 +71,5 @@ Feature: Register Editing
     Then User should to find the item in field
       | nameContains | TestRegisterEdit |
 
-
+    And User clicks following dynamic elements
+      | click | Dashboard |

@@ -6,10 +6,10 @@ Feature: Custom Data Category Deletion
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-12 Custom Data Category Deletion Scenario
+  Scenario: TC-09 Custom Data Category Deletion Scenario
 
     And User clicks following Items
-      | menuBar            |
+#      | menuBar            |
       | categories         |
       | customDataCategory |
       | customerCategories |
@@ -27,3 +27,5 @@ Feature: Custom Data Category Deletion
     Then User should see verify message
       | success | success |
 
+    And User clicks following dynamic elements
+      | click | Dashboard |
