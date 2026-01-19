@@ -6,7 +6,7 @@ Feature: Register Deletion
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-08 Register Deletion Scenario
+  Scenario: TC- Register Deletion Scenario
 
     And User clicks following Items
       | library |

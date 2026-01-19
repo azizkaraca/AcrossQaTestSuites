@@ -33,7 +33,7 @@ public class DynamicContent extends _Parent {
         clickFunction(element);
     }
 
-    public void findAndVerify(String strElement, String text) {
+    public void findAndVerifyDynamic(String strElement, String text) {
         String dynamicXpath = "//*[text()='" + strElement +"']";
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXpath)));
         verifyContainsText(element, text);

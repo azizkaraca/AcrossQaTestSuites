@@ -224,6 +224,9 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//label[contains(text(),'Connections')]/following-sibling::div//input")
     private WebElement connections;
 
+    @FindBy(xpath = "//label[contains(text(),'Reason')]/following::textarea[1]")
+    private WebElement reason;
+
     @FindBy(xpath = "//p[text()='Registers']")
     private WebElement registers;
 
@@ -259,7 +262,6 @@ public class DialogContent extends _Parent {
 
     @FindBy (xpath = "//span[text()='Shareable']")
     private WebElement shareable;
-
 
     // List Elements locate below this line
 
@@ -298,6 +300,7 @@ public class DialogContent extends _Parent {
             case "registerAddress": myElement = registerAddress;break;
             case "scanRate": myElement = scanRate;break;
             case "connections": myElement = connections;break;
+            case "reason": myElement = reason;break;
 
 
         }

@@ -73,6 +73,17 @@ public class DeviceSteps {
         }
     }
 
+    @Then("User should to find the Dynamic item in field")
+    public void userShouldToFindTheDynamicItemInField(DataTable elements) {
+
+        List<List<String>> listElement = elements.asLists(String.class);
+        DynamicContent dc = new DynamicContent();
+
+        for (int i = 0; i < listElement.size(); i++) {
+            dc.findAndVerifyDynamic(listElement.get(i).get(0), listElement.get(i).get(1));
+        }
+    }
+
     @And("User enters data to necessary areas")
     public void userEntersDataToNecessaryAreas(DataTable elements) {
 

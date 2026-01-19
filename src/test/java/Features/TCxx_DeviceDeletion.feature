@@ -6,7 +6,7 @@ Feature: Device Deletion
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-04 Device Deletion Scenario
+  Scenario: TC- Device Deletion Scenario
 
     And User clicks following dynamic elements
       | click | Library |

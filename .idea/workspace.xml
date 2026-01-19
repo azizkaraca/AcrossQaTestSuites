@@ -4,27 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20251201_Update_1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC04_CustomerMenuEditing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC05_CustomerMenuDeletion.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC17_DeviceCreation.feature" afterDir="false" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20251211_Update_1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC16_CustomDataTemplateDeletion.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC17_CustomEntityTemplateCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceCreation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC03_DeviceCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC03_CustomerMenuCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC04_DeviceEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC18_DeviceEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC05_DeviceDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC19_DeviceDeletion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC06_RegisterCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC20_RegisterCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC07_RegisterEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC21_RegisterEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC08_RegisterDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC22_RegisterDeletion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC09_CustomDataCategoryCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC06_CustomDataCategoryCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC10_CustomDataCategoryDuplicateCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC07_CustomDataCategoryDuplicateCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC11_CustomDataCategoryEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC08_CustomDataCategoryEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC12_CustomDataCategoryDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC09_CustomDataCategoryDeletion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC13_CustomEntityCategoryCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC10_CustomEntityCategoryCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomEntityCategoryDuplicateCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC11_CustomEntityCategoryDuplicateCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomEntityCategoryEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC12_CustomEntityCategoryEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC16_CustomEntityCategoryDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC13_CustomEntityCategoryDeletion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC17_DeviceCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC18_DeviceEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceEditing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC19_DeviceDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceDeletion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC20_RegisterCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_RegisterCreation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC21_RegisterEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_RegisterEditing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC22_RegisterDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_RegisterDeletion.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DynamicContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DynamicContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DynamicContentBackUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DeviceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DeviceSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DynamicContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DynamicContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DynamicContentBackUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,16 +120,16 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC-08 Register Deletion Scenario">
-    <configuration name="Scenario: TC-03 Device Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-15 Custom Data Template Editing Scenario">
+    <configuration name="Scenario:  (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC17_DeviceCreation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-03 Device Creation Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-03 Device Creation Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-03 Device Creation Scenario" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,15 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-04 Device Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-01 Login With Valid Credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC18_DeviceEditing.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC01_Login.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-04 Device Editing Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-04 Device Editing Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-04 Device Editing Scenario" />
+      <option name="NAME_FILTER" value="^TC\-01 Login With Valid Credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-01 Login With Valid Credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-01 Login With Valid Credentials" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,15 +161,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-06 Register Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-14 Custom Data Template Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC20_RegisterCreation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-06 Register Creation Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-06 Register Creation Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-06 Register Creation Scenario" />
+      <option name="NAME_FILTER" value="^TC\-14 Custom Data Template Creation Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-14 Custom Data Template Creation Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-14 Custom Data Template Creation Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -182,15 +181,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-07 Register Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-15 Custom Data Template Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC21_RegisterEditing.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-07 Register Editing Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-07 Register Editing Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-07 Register Editing Scenario" />
+      <option name="NAME_FILTER" value="^TC\-15 Custom Data Template Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-15 Custom Data Template Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-15 Custom Data Template Editing Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -202,15 +201,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-08 Register Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-16 Custom Data Template Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC22_RegisterDeletion.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC16_CustomDataTemplateDeletion.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-08 Register Deletion Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-08 Register Deletion Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-08 Register Deletion Scenario" />
+      <option name="NAME_FILTER" value="^TC\-16 Custom Data Template Deletion Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-16 Custom Data Template Deletion Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-16 Custom Data Template Deletion Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -224,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC-08 Register Deletion Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-07 Register Editing Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-03 Device Creation Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-04 Device Editing Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-06 Register Creation Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-15 Custom Data Template Editing Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-14 Custom Data Template Creation Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-01 Login With Valid Credentials" />
+        <item itemvalue="Cucumber Java.Scenario:  (2)" />
+        <item itemvalue="Cucumber Java.Scenario: TC-16 Custom Data Template Deletion Scenario" />
       </list>
     </recent_temporary>
   </component>
@@ -348,14 +347,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00035" summary="20250822_New Name">
-      <option name="closed" value="true" />
-      <created>1755871292759</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1755871292759</updated>
     </task>
     <task id="LOCAL-00036" summary="20250822_New Name">
       <option name="closed" value="true" />
@@ -629,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764577540036</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="20251211_Update_1">
+      <option name="closed" value="true" />
+      <created>1765443896103</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1765443896104</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.04 updated" />
     <MESSAGE value="30.04 updated" />
     <MESSAGE value="20250820_Update" />
     <MESSAGE value="20250822_Update" />
@@ -685,7 +683,8 @@
     <MESSAGE value="20250917_Update_Testing_Env_1" />
     <MESSAGE value="20250929_Update_1" />
     <MESSAGE value="20251201_Update_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20251201_Update_1" />
+    <MESSAGE value="20251211_Update_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20251211_Update_1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

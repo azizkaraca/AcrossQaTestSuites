@@ -6,7 +6,7 @@ Feature: Device Editing
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-04 Device Editing Scenario
+  Scenario: TC- Device Editing Scenario
 
     And User clicks following dynamic elements
       | click | Library |

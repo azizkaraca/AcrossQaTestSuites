@@ -6,7 +6,7 @@ Feature: Device Creation
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-03 Device Creation Scenario
+  Scenario: TC- Device Creation Scenario
 
     And User clicks following dynamic elements
       | click | Library |
