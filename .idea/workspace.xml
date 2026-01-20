@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20251211_Update_1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC16_CustomDataTemplateDeletion.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC17_CustomEntityTemplateCreation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceCreation.feature" afterDir="false" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260119_Update_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC17_DeviceCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC18_DeviceEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC19_DeviceDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceDeletion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC20_RegisterCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_RegisterCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC21_RegisterEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_RegisterEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC22_RegisterDeletion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TCxx_RegisterDeletion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DynamicContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DynamicContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DynamicContentBackUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DeviceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DeviceSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DynamicContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DynamicContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DynamicContentBackUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,14 +330,6 @@
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
     </task>
-    <task id="LOCAL-00036" summary="20250822_New Name">
-      <option name="closed" value="true" />
-      <created>1755871727959</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1755871727959</updated>
-    </task>
     <task id="LOCAL-00037" summary="20250822_New Name">
       <option name="closed" value="true" />
       <created>1755878780565</created>
@@ -628,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765443896104</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="20260119_Update_1">
+      <option name="closed" value="true" />
+      <created>1768830200364</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1768830200365</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +641,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="30.04 updated" />
     <MESSAGE value="20250820_Update" />
     <MESSAGE value="20250822_Update" />
     <MESSAGE value="20250822_Update XMLFiles" />
@@ -684,7 +665,8 @@
     <MESSAGE value="20250929_Update_1" />
     <MESSAGE value="20251201_Update_1" />
     <MESSAGE value="20251211_Update_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20251211_Update_1" />
+    <MESSAGE value="20260119_Update_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20260119_Update_1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
