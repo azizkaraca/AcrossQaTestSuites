@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class GWD {
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
-    private static ThreadLocal<String> threadBrowser = new ThreadLocal<>(); // public yaparsam runnerslardan browser set edebilirim
+    private static ThreadLocal<String> threadBrowser = new ThreadLocal<>(); // if public, then browser can be set in Runners.
 
     public static WebDriver getDriver() {
 

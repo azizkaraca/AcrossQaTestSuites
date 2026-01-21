@@ -5,7 +5,7 @@ Feature: Custom Data Category Editing
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-08 Custom Data Category Editing Scenario
 
     And User clicks following Items

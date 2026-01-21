@@ -5,7 +5,7 @@ Feature: Custom Entity Category Editing
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-12 Custom Entity Category Editing Scenario
 
     And User clicks following Items

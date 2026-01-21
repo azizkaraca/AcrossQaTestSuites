@@ -5,7 +5,7 @@ Feature: Custom Entity Category Duplicate Creation
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-11 Custom Entity Category Duplicate Creation Scenario
 
     And User clicks following Items

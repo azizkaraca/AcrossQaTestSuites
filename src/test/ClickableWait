@@ -1,10 +1,10 @@
-  Feature kisma ekle;
+  Add to Feature;
 
     And User wait until element clickable to export print
       | confirm   |
 
 
-  Step kisma ekle; dialogta parentten gelen Webelementi stringe cevirdik, stepten de string olarak cagirdik
+  Add to Steps; Converting the element the Webelemnt to String which is coming from Dialog Parent and calling this string in Steps.
 
     public class PrintWaiting {
         DialogContent dc = new DialogContent();
@@ -15,7 +15,7 @@
     }
 
 
-  Diaolog kisma ekle;
+  Add to Dialog;
 
     public void waitUntilButtonActive(String strElement){
             switch (strElement) {
@@ -25,7 +25,7 @@
         }
 
 
-  Parent kismina ekli; buradaki wait saniyesi print islemi almak icin az kaliyor.
+  Add to Parent; this wait is not enough for printing.
 
     public void waitUntilClickable(WebElement element)
         {

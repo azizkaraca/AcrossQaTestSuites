@@ -13,11 +13,11 @@ Feature: Custom Data Template Deletion
       | click | Custom Data Templates |
 
     And User search the item
-      | search | TestCustomDataTemplateEdit |
+      | search | TestCustomDataTemplateTest |
 
     And User clicks following dynamic elements
       | click | search                     |
-      | click | TestCustomDataTemplateEdit |
+      | click | TestCustomDataTemplateTest |
       | click | Edit                       |
       | click | Delete                     |
       | click | Yes                        |

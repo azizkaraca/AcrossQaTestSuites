@@ -5,7 +5,7 @@ Feature: Custom Entity Category Creation
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-10 Custom Entity Category Creation Scenario
 
     And User clicks following Items

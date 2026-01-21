@@ -66,8 +66,6 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//*[text()='Page Designer']")
     private WebElement pageDesigner;
 
-
-
     @FindBy(xpath = "//label[text()='First Name']/following-sibling::div//input")
     private WebElement firstName;
 
@@ -143,7 +141,7 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//label[text()='Manufacturer']//following::div")
     private WebElement manufacturer;
 
-    @FindBy(xpath = "//span[text()='MAS']")
+    @FindBy(xpath = "//span[text()='MAS']/parent::li")
     private WebElement mas;
 
     @FindBy(xpath = "(//label[text()='Protocol']/following::div)[1]")

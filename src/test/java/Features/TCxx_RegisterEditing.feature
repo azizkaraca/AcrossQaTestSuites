@@ -5,7 +5,7 @@ Feature: Register Editing
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC- Register Editing Scenario
 
     And User clicks following Items

@@ -5,7 +5,7 @@ Feature: Custom Data Category Creation
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-06 Custom Data Category Creation Scenario
 
     And User clicks following Items

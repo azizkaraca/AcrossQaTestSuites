@@ -5,7 +5,7 @@ Feature: Register Deletion
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC- Register Deletion Scenario
 
     And User clicks following Items

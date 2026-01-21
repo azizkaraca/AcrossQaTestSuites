@@ -5,7 +5,7 @@ Feature: Custom Data Category Deletion
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-09 Custom Data Category Deletion Scenario
 
     And User clicks following Items

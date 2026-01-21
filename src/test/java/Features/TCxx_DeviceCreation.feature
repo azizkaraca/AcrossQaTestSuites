@@ -5,7 +5,7 @@ Feature: Device Creation
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC- Device Creation Scenario
 
     And User clicks following dynamic elements
@@ -19,16 +19,18 @@ Feature: Device Creation
       | description | DeviceForTest |
 
     And User selects necessary areas
-      | protocol       |
-      | modbus         |
-      | manufacturer   |
-      | mas            |
       | deviceCategory |
       | engine         |
       | heatEngine     |
 
     And User press the Esc Button on Keyboard Times
       | 1 |
+
+    And User selects necessary areas
+      | protocol     |
+      | modbus       |
+      | manufacturer |
+      | mas          |
 
     And User changes languages of relevant fields
       | english |

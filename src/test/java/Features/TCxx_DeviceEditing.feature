@@ -5,7 +5,7 @@ Feature: Device Editing
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC- Device Editing Scenario
 
     And User clicks following dynamic elements

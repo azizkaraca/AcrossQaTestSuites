@@ -13,11 +13,11 @@ Feature: Custom Data Template Editing
       | click | Custom Data Templates |
 
     And User search the item
-      | search | TestCustomDataTemplate |
+      | search | TestCustomDataTemplateTest |
 
     And User clicks following dynamic elements
       | click | search |
-      | click | TestCustomDataTemplate |
+      | click | TestCustomDataTemplateTest |
 
     And User clicks hide button if the alert exist
       | hide |

@@ -76,7 +76,6 @@ public class LoginSteps {
 //        dc.findAndClick("english");
 //    }
 
-
     @And("User should accept secure alert")
     public void userShouldAcceptSecureAlert()
     {

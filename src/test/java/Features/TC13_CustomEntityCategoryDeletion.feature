@@ -5,7 +5,7 @@ Feature: Custom Entity Category Deletion
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC-13 Custom Entity Category Deletion Scenario
 
     And User clicks following Items

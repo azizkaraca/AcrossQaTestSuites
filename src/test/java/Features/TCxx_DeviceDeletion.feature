@@ -5,7 +5,7 @@ Feature: Device Deletion
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
+  @Regression
   Scenario: TC- Device Deletion Scenario
 
     And User clicks following dynamic elements
