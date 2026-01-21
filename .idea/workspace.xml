@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260121_Update_11" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="SmokeTestRunner update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +104,7 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC- Device Creation Scenario (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-05 Customer Menu Deletion Scenario">
     <configuration name="Feature: TCxx_DeviceCreation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceCreation.feature" />
@@ -161,15 +164,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-15 Custom Data Template Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-04 Customer Menu Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC04_CustomerMenuEditing.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-15 Custom Data Template Editing Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-15 Custom Data Template Editing Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-15 Custom Data Template Editing Scenario" />
+      <option name="NAME_FILTER" value="^TC\-04 Customer Menu Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-04 Customer Menu Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-04 Customer Menu Editing Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -181,30 +184,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-05 Customer Menu Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC05_CustomerMenuDeletion.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
+      <option name="NAME_FILTER" value="^TC\-05 Customer Menu Deletion Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-05 Customer Menu Deletion Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-05 Customer Menu Deletion Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.SmokeTestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC-05 Customer Menu Deletion Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-04 Customer Menu Editing Scenario" />
         <item itemvalue="Cucumber Java.Scenario: TC- Device Creation Scenario (1)" />
         <item itemvalue="Cucumber Java.Scenario: TC- Device Creation Scenario" />
         <item itemvalue="Cucumber Java.Feature: TCxx_DeviceCreation" />
-        <item itemvalue="TestNG.SmokeTestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: TC-15 Custom Data Template Editing Scenario" />
       </list>
     </recent_temporary>
   </component>
@@ -324,22 +330,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00040" summary="20250822_New Name">
-      <option name="closed" value="true" />
-      <created>1755880636903</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1755880636903</updated>
-    </task>
-    <task id="LOCAL-00041" summary="20250822_LastUpdate">
-      <option name="closed" value="true" />
-      <created>1755880877322</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1755880877322</updated>
     </task>
     <task id="LOCAL-00042" summary="20250822_LastUpdate">
       <option name="closed" value="true" />
@@ -605,7 +595,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768990785728</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Merge remote-tracking branch 'origin.aziz/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1768991005856</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1768991005856</updated>
+    </task>
+    <task id="LOCAL-00076" summary="workspace merge">
+      <option name="closed" value="true" />
+      <created>1768991091637</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1768991091637</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,9 +657,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20250822_LastUpdate" />
-    <MESSAGE value="20250825_Update_1" />
-    <MESSAGE value="20250825_Update_2" />
     <MESSAGE value="20250825_Update_3" />
     <MESSAGE value="20250825_Update_4" />
     <MESSAGE value="20250825_Update_5" />
@@ -676,7 +679,10 @@
     <MESSAGE value="20260121_Update_6" />
     <MESSAGE value="20260121_Update_10" />
     <MESSAGE value="20260121_Update_11" />
-    <option name="LAST_COMMIT_MESSAGE" value="20260121_Update_11" />
+    <MESSAGE value="Merge remote-tracking branch 'origin.aziz/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="workspace merge" />
+    <MESSAGE value="SmokeTestRunner update" />
+    <option name="LAST_COMMIT_MESSAGE" value="SmokeTestRunner update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
