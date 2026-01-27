@@ -14,8 +14,10 @@ Feature: Custom Entity Template Creation
       | click | Create                  |
       | click | Info                    |
 
+    And User edits the record with name
+      | name | TestCustomEntityTemplate |
+
     And User enters data to necessary areas
-      | name        | TestCustomEntityTemplate5   |
       | description | CustomEntityTemplateForTest |
 
     And User selects necessary areas
@@ -31,8 +33,8 @@ Feature: Custom Entity Template Creation
       | english |
       | greek   |
 
-    And User enters data to necessary areas
-      | name | TestCustomEntityTemplate5EL |
+    And User edits the record with name
+      | name | TestCustomEntityTemplateTest |
 
     And User clicks following dynamic elements
       | click | Structure |

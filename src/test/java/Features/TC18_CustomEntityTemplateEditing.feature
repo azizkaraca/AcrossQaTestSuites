@@ -5,7 +5,7 @@ Feature: Custom Entity Template Editing
     When Login with QA user credentials
     Then Login should be successfully
 
-  @Regression
+  @SmokeTest @Regression
   Scenario: TC-18 Custom Entity Template Editing Scenario
 
     And User clicks following dynamic elements
@@ -25,16 +25,8 @@ Feature: Custom Entity Template Editing
     And User clicks following Items
       | edit |
 
-    And User enters data to necessary areas
-#      | name | TestCustomDataTemplateEdit |
+    And User edits the record with name
       | description | CustomEntityTemplateForTestEdit |
-
-#    And User changes languages of relevant fields
-#      | english |
-#      | greek   |
-#
-#    And User enters data to necessary areas
-#      | name | TestCustomDataTemplateEditEL |
 
     And User confirms the selection
       | save |

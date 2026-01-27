@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260127_Update_1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation22.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DynamicRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/DynamicSteps.java" afterDir="false" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260127_Update_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/DeviceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/DeviceSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC17_CustomEntityTemplateCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC17_CustomEntityTemplateCreation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DynamicSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DynamicSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC-14 Custom Data Template Creation Scenario (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-18 Custom Entity Template Editing Scenario">
     <configuration name="Feature: TC14_CustomDataTemplateCreation22" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation22.feature" />
@@ -190,15 +186,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-18 Custom Entity Template Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation22.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="NAME_FILTER" value="^TC\-18 Custom Entity Template Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-18 Custom Entity Template Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-18 Custom Entity Template Editing Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -212,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC-18 Custom Entity Template Editing Scenario" />
         <item itemvalue="Cucumber Java.Scenario: TC-14 Custom Data Template Creation Scenario (1)" />
         <item itemvalue="Cucumber Java.Feature: TC14_CustomDataTemplateCreation22" />
         <item itemvalue="Cucumber Java.Scenario: TC-16 Custom Data Template Deletion Scenario" />
         <item itemvalue="Cucumber Java.Scenario: TC-14 Custom Data Template Creation Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
@@ -336,14 +332,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00044" summary="20250825_Update_2">
-      <option name="closed" value="true" />
-      <created>1756108626839</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1756108626839</updated>
     </task>
     <task id="LOCAL-00045" summary="20250825_Update_3">
       <option name="closed" value="true" />
@@ -617,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769498869368</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="20260127_Update_2">
+      <option name="closed" value="true" />
+      <created>1769514403332</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1769514403333</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20250825_Update_4" />
     <MESSAGE value="20250825_Update_5" />
     <MESSAGE value="20250825_Update_6" />
     <MESSAGE value="20250825_Update_7" />
@@ -688,7 +683,8 @@
     <MESSAGE value="workspace merge" />
     <MESSAGE value="SmokeTestRunner update" />
     <MESSAGE value="20260127_Update_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20260127_Update_1" />
+    <MESSAGE value="20260127_Update_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="20260127_Update_2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
