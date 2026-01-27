@@ -23,7 +23,6 @@ Feature: Customer Menu Deletion
     Then User should see verify message
       | success | success |
 
-    #    check
 
 
 

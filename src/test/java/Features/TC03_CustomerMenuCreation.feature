@@ -50,7 +50,6 @@ Feature: Customer Menu Creation
     Then User should see verify message
       | success | success |
 
-    #    check
 
 
 

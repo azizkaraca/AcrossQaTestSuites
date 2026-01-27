@@ -32,7 +32,6 @@ Feature: Device Deletion
     And User clicks following dynamic elements
       | click | Dashboard |
 
-#    check
 
 
 

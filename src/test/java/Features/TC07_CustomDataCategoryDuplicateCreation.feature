@@ -38,4 +38,3 @@ Feature: Custom Data Category Duplicate Creation
     And User clicks following dynamic elements
       | click | Dashboard |
 
-    #    check

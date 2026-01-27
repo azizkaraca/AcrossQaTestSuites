@@ -30,4 +30,3 @@ Feature: Custom Data Category Deletion
     And User clicks following dynamic elements
       | click | Dashboard |
 
-    #    check

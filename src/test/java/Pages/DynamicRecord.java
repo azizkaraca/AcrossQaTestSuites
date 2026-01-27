@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.Random;
 
 public class DynamicRecord extends _Parent {
-    //check
 
     // storage: key -> generatedValue
     private final Map<String, String> storedValues = new HashMap<>();

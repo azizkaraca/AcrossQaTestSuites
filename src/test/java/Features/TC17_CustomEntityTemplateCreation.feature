@@ -85,7 +85,6 @@ Feature: Custom Entity Template Creation
     And User clicks following dynamic elements
       | click | Dashboard |
 
-#    check
 
 
 

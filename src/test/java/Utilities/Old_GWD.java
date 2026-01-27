@@ -13,7 +13,7 @@ import org.slf4j.impl.SimpleLogger;
 import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-public class Old_GWD { //check
+public class Old_GWD {
     private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     public static ThreadLocal<String> threadBrowser = new ThreadLocal<>();
 

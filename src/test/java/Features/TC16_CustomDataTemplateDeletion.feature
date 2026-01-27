@@ -28,6 +28,5 @@ Feature: Custom Data Template Deletion
     And User clicks following dynamic elements
       | click | Dashboard |
 
-#    check
 
 

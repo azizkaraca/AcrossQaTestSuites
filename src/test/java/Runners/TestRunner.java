@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 )
-//check
+
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

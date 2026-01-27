@@ -5,7 +5,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
 public class LogoutSteps {
-    //check
     DialogContent dc = new DialogContent();
 
     @And("Go to MyAccount")

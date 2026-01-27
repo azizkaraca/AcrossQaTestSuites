@@ -7,7 +7,6 @@ import io.cucumber.java.en.And;
 import java.util.List;
 
 public class GraphEditSteps {
-    //check
     DialogContent dc = new DialogContent();
 
     @And("User right click to reach edit")

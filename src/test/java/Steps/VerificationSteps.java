@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 
 import java.util.List;
 
-public class VerificationSteps { //check
+public class VerificationSteps {
     DialogContent dc = new DialogContent();
 
     @Then("User should see verify message")

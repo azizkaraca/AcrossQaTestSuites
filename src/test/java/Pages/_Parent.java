@@ -14,8 +14,6 @@ import java.time.Duration;
 import java.util.List;
 
 public class _Parent {
-
-    //check
     protected WebDriver driver = GWD.getDriver();
     protected WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 

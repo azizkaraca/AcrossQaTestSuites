@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomDataTemplate {
-    //check
     DialogContent dc = new DialogContent();
     List<String> normalList;
 

@@ -9,7 +9,6 @@ import java.awt.*;
 import java.util.List;
 
 public class ActionsStep {
-    //check
     DialogContent dc = new DialogContent();
 
     @And("User press the Tab Button on Keyboard Times")

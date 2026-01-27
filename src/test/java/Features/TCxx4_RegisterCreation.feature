@@ -63,4 +63,3 @@ Feature: Register Creation
     And User clicks following dynamic elements
       | click | Dashboard |
 
-    #    check

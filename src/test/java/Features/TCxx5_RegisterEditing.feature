@@ -74,4 +74,3 @@ Feature: Register Editing
     And User clicks following dynamic elements
       | click | Dashboard |
 
-    #    check

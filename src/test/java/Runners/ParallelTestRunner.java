@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
                     "src/test/java/Features/???.feature"}, //I add here what I want to make as parallel test
         glue = {"Steps"}
 )
-//check
+
 public class ParallelTestRunner extends AbstractTestNGCucumberTests {
 
     // it should be open if the job runs by xml so it can take the browser from there

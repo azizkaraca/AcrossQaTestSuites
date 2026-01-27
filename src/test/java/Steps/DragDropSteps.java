@@ -10,7 +10,6 @@ import java.util.List;
 public class DragDropSteps {
 
     DialogContent dc = new DialogContent();
-    //check
     @And("User drag and drop")
     public void userDragAndDrop(DataTable elements) {
 
