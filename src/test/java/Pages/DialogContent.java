@@ -66,6 +66,18 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//*[text()='Page Designer']")
     private WebElement pageDesigner;
 
+    @FindBy(xpath = "//*[@data-testid='FolderIcon']/following-sibling::h6[text()='Custom Data']")
+    private WebElement menuCustomData;
+
+    @FindBy(xpath = "//*[@data-testid='FolderIcon']/following-sibling::h6[text()='Data Template Cat_1']")
+    private WebElement menuDataTemplate;
+
+    @FindBy(xpath = "//*[text()='TestCustomDataTemplate1']")
+    private WebElement TestCustomDataTemplate1;
+
+    @FindBy(xpath = "//*[text()='Info Page']")
+    private WebElement infoPage;
+
     @FindBy(xpath = "//label[text()='First Name']/following-sibling::div//input")
     private WebElement firstName;
 
@@ -367,6 +379,9 @@ public class DialogContent extends _Parent {
             case "menuFeature": myElement = menuFeature;break;
             case "menuSystemPages": myElement = menuSystemPages;break;
             case "pageDesigner": myElement = pageDesigner;break;
+            case "menuCustomData": myElement = menuCustomData;break;
+            case "menuDataTemplate": myElement = menuDataTemplate;break;
+            case "TestCustomDataTemplate1": myElement = TestCustomDataTemplate1;break;
 
 
         }

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="SmokeTestRunner update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC17_CustomEntityTemplateCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/SmokeTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/SmokeTestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,27 +110,8 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC-05 Customer Menu Deletion Scenario">
-    <configuration name="Feature: TCxx_DeviceCreation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceCreation.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TCxx_DeviceCreation" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC- Device Creation Scenario (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-17 Custom Entity Template Creation Scenario">
+    <configuration name="Scenario: TC- Device Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TCxx1_DeviceCreation.feature" />
       <option name="GLUE" value="Steps" />
@@ -144,15 +131,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC- Device Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC- Register Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TCxx_DeviceCreation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TCxx6_RegisterDeletion.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\- Device Creation Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\- Device Creation Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC- Device Creation Scenario" />
+      <option name="NAME_FILTER" value="^TC\- Register Deletion Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\- Register Deletion Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC- Register Deletion Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -164,15 +151,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-04 Customer Menu Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC- Register Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC04_CustomerMenuEditing.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TCxx5_RegisterEditing.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-04 Customer Menu Editing Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-04 Customer Menu Editing Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-04 Customer Menu Editing Scenario" />
+      <option name="NAME_FILTER" value="^TC\- Register Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\- Register Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC- Register Editing Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -184,15 +171,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-05 Customer Menu Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-17 Custom Entity Template Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC05_CustomerMenuDeletion.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC17_CustomEntityTemplateCreation.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-05 Customer Menu Deletion Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-05 Customer Menu Deletion Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-05 Customer Menu Deletion Scenario" />
+      <option name="NAME_FILTER" value="^TC\-17 Custom Entity Template Creation Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-17 Custom Entity Template Creation Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-17 Custom Entity Template Creation Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC-18 Custom Entity Template Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AcrossQaTestSuites" />
+      <option name="NAME_FILTER" value="^TC\-18 Custom Entity Template Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-18 Custom Entity Template Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-18 Custom Entity Template Editing Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -206,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC-05 Customer Menu Deletion Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-04 Customer Menu Editing Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC- Device Creation Scenario (1)" />
+        <item itemvalue="Cucumber Java.Scenario: TC-17 Custom Entity Template Creation Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-18 Custom Entity Template Editing Scenario" />
         <item itemvalue="Cucumber Java.Scenario: TC- Device Creation Scenario" />
-        <item itemvalue="Cucumber Java.Feature: TCxx_DeviceCreation" />
+        <item itemvalue="Cucumber Java.Scenario: TC- Register Deletion Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC- Register Editing Scenario" />
       </list>
     </recent_temporary>
   </component>
@@ -330,14 +337,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00042" summary="20250822_LastUpdate">
-      <option name="closed" value="true" />
-      <created>1755881000935</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1755881000935</updated>
     </task>
     <task id="LOCAL-00043" summary="20250825_Update_1">
       <option name="closed" value="true" />
@@ -611,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768991091637</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="SmokeTestRunner update">
+      <option name="closed" value="true" />
+      <created>1768998103544</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1768998103544</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

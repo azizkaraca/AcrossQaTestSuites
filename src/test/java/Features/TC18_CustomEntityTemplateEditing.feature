@@ -1,23 +1,23 @@
-Feature: Custom Data Template Editing
+Feature: Custom Entity Template Editing
 
   Background:
     Given Navigate to Testing Environment
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
-  Scenario: TC-15 Custom Data Template Editing Scenario
+  @Regression
+  Scenario: TC-18 Custom Entity Template Editing Scenario
 
     And User clicks following dynamic elements
-      | click | Templates             |
-      | click | Custom Data Templates |
+      | click | Templates               |
+      | click | Custom Entity Templates |
 
     And User search the item
-      | search | TestCustomDataTemplateTest |
+      | search | TestCustomEntityTemplate |
 
     And User clicks following dynamic elements
-      | click | search                     |
-      | click | TestCustomDataTemplateTest |
+      | click | search                   |
+      | click | TestCustomEntityTemplate |
 
     And User clicks hide button if the alert exist
       | hide |
@@ -27,7 +27,7 @@ Feature: Custom Data Template Editing
 
     And User enters data to necessary areas
 #      | name | TestCustomDataTemplateEdit |
-      | description | CustomDataTemplateForTest |
+      | description | CustomEntityTemplateForTestEdit |
 
 #    And User changes languages of relevant fields
 #      | english |

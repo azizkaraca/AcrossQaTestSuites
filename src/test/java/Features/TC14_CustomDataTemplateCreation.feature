@@ -15,8 +15,8 @@ Feature: Custom Data Template Creation
       | click | Info                  |
 
     And User enters data to necessary areas
-      | name        | TestCustomDataTemplateTest   |
-      | description | CustomDataTemplateForTest |
+      | name        | TestCustomDataTemplateTest |
+      | description | CustomDataTemplateForTest  |
 
     And User selects necessary areas
       | deviceCategory |
@@ -32,8 +32,8 @@ Feature: Custom Data Template Creation
       | greek   |
 
     And User enters data to necessary areas
-      | name        | TestCustomDataTemplateTestEL    |
-      | description | CustomDataTemplateForTestEL |
+      | name        | TestCustomDataTemplateTestEL |
+      | description | CustomDataTemplateForTestEL  |
 
     And User clicks following dynamic elements
       | click | Structure |
