@@ -38,5 +38,7 @@ Feature: Custom Entity Template Editing
     And User clicks following dynamic elements
       | click | Dashboard |
 
+    #    check
+
 
 

@@ -37,3 +37,6 @@ Feature: Custom Entity Category Creation
 
     And User clicks following dynamic elements
       | click | Dashboard |
+
+    #    check
+

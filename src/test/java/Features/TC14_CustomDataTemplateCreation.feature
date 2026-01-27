@@ -50,6 +50,8 @@ Feature: Custom Data Template Creation
     And User clicks following dynamic elements
       | click | Dashboard |
 
+    #    check
+
 
 
 

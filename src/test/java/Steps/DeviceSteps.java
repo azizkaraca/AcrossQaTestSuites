@@ -11,7 +11,7 @@ import java.util.List;
 
 public class DeviceSteps {
     DialogContent dc = new DialogContent();
-
+    //check
     @And("User clicks following Items")
     public void userClicksFollowingItems(DataTable elements) {
 

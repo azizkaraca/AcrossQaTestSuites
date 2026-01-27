@@ -34,3 +34,5 @@ Feature: Custom Data Category Editing
 
     And User clicks following dynamic elements
       | click | Dashboard |
+
+    #    check

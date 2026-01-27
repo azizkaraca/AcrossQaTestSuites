@@ -9,7 +9,7 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class sqlQueryStep {
+public class sqlQueryStep { //check
     @And("Send The query to the database {string} and control match")
     public void sendTheQueryToTheDatabaseAndControlMatch(String query) {
 

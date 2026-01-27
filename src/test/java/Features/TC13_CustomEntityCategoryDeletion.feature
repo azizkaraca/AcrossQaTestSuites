@@ -29,3 +29,6 @@ Feature: Custom Entity Category Deletion
 
     And User clicks following dynamic elements
       | click | Dashboard |
+
+    #    check
+

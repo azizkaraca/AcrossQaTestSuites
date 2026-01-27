@@ -46,6 +46,7 @@ Feature: Device Editing
     And User clicks following dynamic elements
       | click | Dashboard |
 
+#    check
 
 
 

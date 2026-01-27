@@ -35,6 +35,8 @@ Feature: Customer Menu Editing
     Then User should see verify message
       | success | success |
 
+    #    check
+
 
 
 

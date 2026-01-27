@@ -10,7 +10,7 @@ import io.cucumber.java.en.Then;
 import java.util.List;
 
 public class DynamicSteps {
-
+    //check
     DialogContent dc = new DialogContent();
     DynamicContent dyc = new DynamicContent();
     DynamicRecord dr = new DynamicRecord();
@@ -58,4 +58,5 @@ public class DynamicSteps {
             dc.findAndVerifyDynamic(listElement.get(i).get(0), listElement.get(i).get(1));
         }
     }
+    //check
 }

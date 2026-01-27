@@ -11,3 +11,6 @@ Feature: Logout
     And Click Logout Button
     Then User Should Logout Successfully
 
+    #    check
+
+

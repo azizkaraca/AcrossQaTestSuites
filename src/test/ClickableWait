@@ -1,4 +1,4 @@
-  Add to Feature;
+  Add to Feature; //check
 
     And User wait until element clickable to export print
       | confirm   |
