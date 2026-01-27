@@ -25,16 +25,15 @@ Feature: Custom Data Template Editing
     And User clicks following Items
       | edit |
 
-    And User enters data to necessary areas
-#      | name | TestCustomDataTemplateEdit |
-      | description | CustomDataTemplateForTest |
+    And User edits the record with name
+      | name | TestCustomDataTemplateEdit |
 
-#    And User changes languages of relevant fields
-#      | english |
-#      | greek   |
-#
-#    And User enters data to necessary areas
-#      | name | TestCustomDataTemplateEditEL |
+    And User changes languages of relevant fields
+      | english |
+      | greek   |
+
+    And User edits the record with name
+      | name | TestCustomDataTemplateEditEL |
 
     And User confirms the selection
       | save |

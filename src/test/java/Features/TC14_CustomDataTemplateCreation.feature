@@ -32,14 +32,11 @@ Feature: Custom Data Template Creation
       | greek   |
 
     And User enters data to necessary areas
-      | name        | TestCustomDataTemplateTestEL |
-      | description | CustomDataTemplateForTestEL  |
+      | name | TestCustomDataTemplateTestEL |
 
     And User clicks following dynamic elements
       | click | Structure |
-
-    And User clicks following dynamic elements
-      | click | Save |
+      | click | Save      |
 
     And User enters data to necessary areas
       | reason | TestCustomDataTemplateCreation |
