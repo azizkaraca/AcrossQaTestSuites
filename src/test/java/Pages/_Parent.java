@@ -25,7 +25,10 @@ public class _Parent {
         scrollToElement(element);
         clearTextArea(element);
         element.clear(); //-> it did not work for across app. check it later!
-        element.sendKeys(value);
+        slowSendKeys(element, value);
+//        element.sendKeys(value); // This triggers the click action too quickly, before the sendKey input fully completed
+//        waitUntilNailed(element,value); // for now no need to put it since slowSendKeys function working well
+
 
     }
 
@@ -152,6 +155,12 @@ public class _Parent {
 
     }
 
+    public void waitUntilNailed (WebElement element, String string)
+    {
+//        wait.until(ExpectedConditions.textToBePresentInElementValue(element, string));
+        wait.until(driver -> element.getAttribute("value").equals(string));
+    }
+
     public List<WebElement> waitVisibleListAllElement(List<WebElement> elementList)
     {
 
@@ -229,6 +238,18 @@ public class _Parent {
         waitUntilClickable(element);
         actions.contextClick(element).perform();
 
+    }
+
+    public void slowSendKeys (WebElement element,String string)
+    {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element)
+                .click()
+                .pause(Duration.ofMillis(200))
+                .sendKeys(string)
+                .pause(Duration.ofMillis(200))
+                .sendKeys(Keys.TAB)
+                .perform();
     }
 
     public void refresh()

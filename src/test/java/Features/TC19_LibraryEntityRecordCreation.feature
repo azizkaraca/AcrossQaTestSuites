@@ -42,8 +42,8 @@ Feature: Library Entity Record Creation
     And User enters data to necessary areas
       | description | LibraryEntityForTestEL |
 
-    And User press the Tab Button on Keyboard Times
-      | 5 |
+#    And User press the Tab Button on Keyboard Times
+#      | 5 |
 
     And User clicks following dynamic elements
       | click | save |
