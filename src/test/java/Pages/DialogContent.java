@@ -272,6 +272,12 @@ public class DialogContent extends _Parent {
     @FindBy (xpath = "//span[text()='Shareable']")
     private WebElement shareable;
 
+
+    @FindBy(xpath = "//*[text()='Next']")
+    private WebElement next;
+    @FindBy(xpath = "//div[@data-id='ACROSS_QA']//div[@data-field='__check__']")
+    private WebElement installation;
+
     // List Elements locate below this line
 
     @FindBy(xpath = "//div[contains(@class,'MuiDataGrid-row')]//div[@data-field='name']")
@@ -381,6 +387,8 @@ public class DialogContent extends _Parent {
             case "menuCustomData": myElement = menuCustomData;break;
             case "menuDataTemplate": myElement = menuDataTemplate;break;
             case "TestCustomDataTemplate1": myElement = TestCustomDataTemplate1;break;
+            case "installation": myElement = installation;break;
+            case "next": myElement = next;break;
 
 
         }

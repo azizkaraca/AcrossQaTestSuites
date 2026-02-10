@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260203_Update_2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC20_LibraryEntityRecordEditing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC21_LibraryEntityRecordDeletion.feature" afterDir="false" />
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260204_Update_1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC22_InstanceEntityRecordCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC23_InstanceEntityRecordEditing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC24_InstanceEntityRecordDeletion.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC19_LibraryEntityRecordCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC19_LibraryEntityRecordCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/_Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/_Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/_Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/_Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/CrossBrowserRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/CrossBrowserRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ActionsStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ActionsStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CustomDataTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CustomDataTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DeviceSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DragDropSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DragDropSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/DynamicSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/DynamicSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/GraphEditSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/GraphEditSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/IDsortingSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/IDsortingSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LogoutSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/_Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/_Hooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,26 +111,7 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC21_LibraryEntityRecordDeletion">
-    <configuration name="Feature: TC20_LibraryEntityRecordEditing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC20_LibraryEntityRecordEditing.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC20_LibraryEntityRecordEditing" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-24 Instance Entity Record Deletion Scenario">
     <configuration name="Feature: TC21_LibraryEntityRecordDeletion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC21_LibraryEntityRecordDeletion.feature" />
@@ -151,26 +120,6 @@
       <module name="AcrossQaTestSuites" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: TC21_LibraryEntityRecordDeletion" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC-17 Custom Entity Template Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC19_LibraryEntityRecordCreation.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-17 Custom Entity Template Creation Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-17 Custom Entity Template Creation Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-17 Custom Entity Template Creation Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -202,15 +151,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-20 Library Entity Record Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-22 Instance Entity Record Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC20_LibraryEntityRecordEditing.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC22_InstanceEntityRecordCreation.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-20 Library Entity Record Editing Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-20 Library Entity Record Editing Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-20 Library Entity Record Editing Scenario" />
+      <option name="NAME_FILTER" value="^TC\-22 Instance Entity Record Creation Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-22 Instance Entity Record Creation Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-22 Instance Entity Record Creation Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC-23 Instance Entity Record Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC23_InstanceEntityRecordEditing.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AcrossQaTestSuites" />
+      <option name="NAME_FILTER" value="^TC\-23 Instance Entity Record Editing Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-23 Instance Entity Record Editing Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-23 Instance Entity Record Editing Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC-24 Instance Entity Record Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC24_InstanceEntityRecordDeletion.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AcrossQaTestSuites" />
+      <option name="NAME_FILTER" value="^TC\-24 Instance Entity Record Deletion Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-24 Instance Entity Record Deletion Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-24 Instance Entity Record Deletion Scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -224,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC21_LibraryEntityRecordDeletion" />
-        <item itemvalue="Cucumber Java.Feature: TC20_LibraryEntityRecordEditing" />
+        <item itemvalue="Cucumber Java.Scenario: TC-24 Instance Entity Record Deletion Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-23 Instance Entity Record Editing Scenario" />
         <item itemvalue="Cucumber Java.Scenario: TC-19 Library Entity Record Creation Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-20 Library Entity Record Editing Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-17 Custom Entity Template Creation Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-22 Instance Entity Record Creation Scenario" />
+        <item itemvalue="Cucumber Java.Feature: TC21_LibraryEntityRecordDeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -351,14 +340,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00039" summary="20250822_New Name">
-      <option name="closed" value="true" />
-      <created>1755880480037</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1755880480037</updated>
     </task>
     <task id="LOCAL-00040" summary="20250822_New Name">
       <option name="closed" value="true" />
@@ -632,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770130628423</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="20260204_Update_1">
+      <option name="closed" value="true" />
+      <created>1770196918987</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1770196918988</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20250822_Update XMLFiles" />
     <MESSAGE value="20250822_New Name" />
     <MESSAGE value="20250822_LastUpdate" />
     <MESSAGE value="20250825_Update_1" />
@@ -688,7 +676,8 @@
     <MESSAGE value="20260119_Update_1" />
     <MESSAGE value="20260203_Update_1" />
     <MESSAGE value="20260203_Update_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="20260203_Update_2" />
+    <MESSAGE value="20260204_Update_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20260204_Update_1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
