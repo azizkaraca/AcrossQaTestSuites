@@ -27,7 +27,7 @@ Feature: Instance Entity Record Editing
       | edit |
 
     And User edits the record with name
-      | name        | TestInstanceEntityEdit        |
+#      | name        | TestInstanceEntityEdit        |
       | description | TestInstanceEntityForTestEdit |
 
     And User clicks following dynamic elements

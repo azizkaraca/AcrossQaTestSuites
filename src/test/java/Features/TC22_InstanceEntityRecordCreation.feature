@@ -60,7 +60,3 @@ Feature: Instance Entity Record Creation
 
     And User clicks following dynamic elements
       | click | Dashboard |
-#
-#
-#
-#

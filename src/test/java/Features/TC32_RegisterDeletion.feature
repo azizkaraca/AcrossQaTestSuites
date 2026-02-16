@@ -6,20 +6,20 @@ Feature: Register Deletion
     Then Login should be successfully
 
   @Regression
-  Scenario: TC- Register Deletion Scenario
+  Scenario: TC-32 Register Deletion Scenario
 
     And User clicks following Items
       | library |
       | devices |
 
     And User search the item
-      | search | TestDEVICE |
+      | search | StableDEVICE |
 
     And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
-      | nameContains | TestDEVICE |
+      | nameContains | StableDEVICE |
 
     And User clicks following Items
       | nameContains |

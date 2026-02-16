@@ -1,4 +1,4 @@
-Feature: Register Creation
+Feature: Register Editing
 
   Background:
     Given Navigate to Testing Environment
@@ -6,46 +6,57 @@ Feature: Register Creation
     Then Login should be successfully
 
   @Regression
-  Scenario: TC- Register Creation Scenario
+  Scenario: TC-31 Register Editing Scenario
 
     And User clicks following Items
       | library |
       | devices |
 
     And User search the item
-      | search | TestDEVICE |
+      | search | StableDEVICE |
 
     And User clicks following Items
       | searchButton |
 
     Then User should to find the item in field
-      | nameContains | TestDEVICE |
+      | nameContains | StableDEVICE |
 
     And User clicks following Items
       | nameContains |
       | registers    |
-      | plusIcon     |
+
+    And User search the item
+      | search | TestRegister |
+
+    And User clicks following Items
+      | searchButton |
+
+    Then User should to find the item in field
+      | nameContains | TestRegister |
+
+    And User clicks following Items
+      | edit |
 
     And User enters data to necessary areas
-      | registerName    | TestRegister       |
-      | displayName     | TestRegister       |
-      | description     | RegisterForDevice  |
-      | registerAddress | AddressForRegister |
-      | scanRate        | 7000               |
+      | registerName    | TestRegisterEdit       |
+      | displayName     | TestRegisterEdit       |
+      | description     | RegisterForDeviceEdit  |
+      | registerAddress | AddressForRegisterEdit |
+      | scanRate        | 7007                   |
 
     And User changes languages of relevant fields
       | english |
       | greek   |
 
     And User enters data to necessary areas
-      | displayName | TestRegister EL|
+      | displayName | TestRegisterEdit EL|
 
     And User changes languages of relevant fields
       | english |
       | greek   |
 
     And User enters data to necessary areas
-      | description | RegisterForDevice EL|
+      | description | RegisterForDeviceEdit EL|
 
     And User confirms the selection
       | save |
@@ -55,10 +66,10 @@ Feature: Register Creation
       | success | success |
 
     And User search the item
-      | search | TestRegister |
+      | search | TestRegisterEdit |
 
     Then User should to find the item in field
-      | nameContains | TestRegister |
+      | nameContains | TestRegisterEdit |
 
     And User clicks following dynamic elements
       | click | Dashboard |

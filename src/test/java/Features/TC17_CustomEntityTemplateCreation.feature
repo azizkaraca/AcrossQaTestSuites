@@ -14,9 +14,6 @@ Feature: Custom Entity Template Creation
       | click | Create                  |
       | click | Info                    |
 
-#    And User edits the record with name
-#      | name | TestCustomEntityTemplate |
-
     And User enters data to necessary areas
       | name | TestCustomEntityTemplate |
       | description | CustomEntityTemplateForTest |

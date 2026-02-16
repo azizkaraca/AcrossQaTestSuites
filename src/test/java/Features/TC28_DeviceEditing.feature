@@ -6,7 +6,7 @@ Feature: Device Editing
     Then Login should be successfully
 
   @Regression
-  Scenario: TC- Device Editing Scenario
+  Scenario: TC-28 Device Editing Scenario
 
     And User clicks following dynamic elements
       | click | Library |

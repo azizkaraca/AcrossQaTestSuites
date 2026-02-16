@@ -1,38 +1,34 @@
-Feature: Device Deletion
+Feature: Imported Instance Entity Record Deletion
 
   Background:
     Given Navigate to Testing Environment
     When Login with QA user credentials
     Then Login should be successfully
 
-  @Regression
-  Scenario: TC- Device Deletion Scenario
+  @SmokeTest @Regression
+  Scenario: TC-26 Imported Instance Entity Record Deletion Scenario
 
     And User clicks following dynamic elements
-      | click | Library |
-      | click | Devices |
+      | click | Entities          |
+      | click | Instance Entities |
+      | click | Instance Entity_1 |
 
     And User search the item
-      | search | TestDeviceEdit |
+      | search | TestImportInstanceEntity |
 
     And User clicks following dynamic elements
       | click | search |
+
+    And User clicks following dynamic elements
+      | click | Name   |
       | click | delete |
       | click | Yes    |
 
-    And User should see verify message
+    Then User should see verify message
       | success | success |
 
     And User clicks following dynamic elements
-      | click | Devices |
-
-    Then User should not find item
-      | nameContains | TestDeviceEdit |
-
-    And User clicks following dynamic elements
       | click | Dashboard |
-
-
 
 
 

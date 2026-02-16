@@ -14,12 +14,13 @@ Feature: Library Entity Record Deletion
       | click | Library Entity_1 |
 
     And User search the item
-      | search | TestLibraryEntity |
+      | search | TestLibraryEntityEdit |
 
     And User clicks following dynamic elements
       | click | search |
 
     And User clicks following dynamic elements
+      | click | Name   |
       | click | delete |
       | click | Yes    |
 

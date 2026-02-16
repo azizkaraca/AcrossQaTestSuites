@@ -17,7 +17,7 @@ Feature: Library Entity Record Editing
       | search | TestLibraryEntity |
 
     And User clicks following dynamic elements
-      | click | search                   |
+      | click | search            |
       | click | TestLibraryEntity |
 
     And User clicks hide button if the alert exist
@@ -27,9 +27,7 @@ Feature: Library Entity Record Editing
       | edit |
 
     And User edits the record with name
-      | name        | TestLibraryEntityEdit        |
       | description | TestLibraryEntityForTestEdit |
-
 
     And User confirms the selection
       | save |

@@ -18,14 +18,14 @@ public class DynamicContent extends _Parent {
                 element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXpath)));
                 break;
 
-//            case "edit":
-//                // it executes according to edit actions with its locator and it can be updated according to button near dynamic element
-//                dynamicXpath = String.format("//*[text()='" + strElement + "']", strElement);
-//                element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXpath)));
-//                break;
+            case "title":
+                // it executes according to titles inside custom entity template structure
+                dynamicXpath = String.format("//p[@title='" + strElement + "']", strElement);
+                element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXpath)));
+                break;
 
             default:
-                // it finds other all actions according to text given on Features
+                // it finds other all actions according to text given on Features // in the system it can be found as "click" on features
                 dynamicXpath = String.format("//*[text()='" + strElement + "']", strElement);
                 element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXpath)));
                 break;

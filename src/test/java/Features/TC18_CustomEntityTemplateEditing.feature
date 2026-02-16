@@ -26,9 +26,8 @@ Feature: Custom Entity Template Editing
       | edit |
 
     And User edits the record with name
-      | name | TestCustomEntityTemplate |
+#      | name | TestCustomEntityTemplate |
       | description | CustomEntityTemplateForTestEdit |
-
 
     And User confirms the selection
       | save |

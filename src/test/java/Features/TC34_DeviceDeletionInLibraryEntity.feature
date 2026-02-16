@@ -1,4 +1,4 @@
-Feature: Custom Data Template Deletion
+Feature: Device Deletion In Library Entity
 
   Background:
     Given Navigate to Testing Environment
@@ -6,17 +6,21 @@ Feature: Custom Data Template Deletion
     Then Login should be successfully
 
   @SmokeTest @Regression
-  Scenario: TC-16 Custom Data Template Deletion Scenario
+  Scenario: TC-34 Device Deletion In Library Entity Scenario
 
     And User clicks following dynamic elements
-      | click | Templates             |
-      | click | Custom Data Templates |
+      | click | Entities            |
+      | click | Library Entities    |
+      | click | Library Entity_1    |
+      | click | StableLibraryEntity |
+      | title | Devices             |
 
     And User search the item
-      | search | TestCustomDataTemplateEdit |
+      | search | StableDevice |
 
     And User clicks following dynamic elements
       | click | search |
+#      | click | Name   |
       | click | delete |
       | click | Yes    |
 

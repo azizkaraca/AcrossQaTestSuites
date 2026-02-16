@@ -1,30 +1,38 @@
-Feature: Custom Data Template Deletion
+Feature: Device Deletion
 
   Background:
     Given Navigate to Testing Environment
     When Login with QA user credentials
     Then Login should be successfully
 
-  @SmokeTest @Regression
-  Scenario: TC-16 Custom Data Template Deletion Scenario
+  @Regression
+  Scenario: TC-29 Device Deletion Scenario
 
     And User clicks following dynamic elements
-      | click | Templates             |
-      | click | Custom Data Templates |
+      | click | Library |
+      | click | Devices |
 
     And User search the item
-      | search | TestCustomDataTemplateEdit |
+      | search | TestDeviceEdit |
 
     And User clicks following dynamic elements
       | click | search |
       | click | delete |
       | click | Yes    |
 
-    Then User should see verify message
+    And User should see verify message
       | success | success |
 
     And User clicks following dynamic elements
+      | click | Devices |
+
+    Then User should not find item
+      | nameContains | TestDeviceEdit |
+
+    And User clicks following dynamic elements
       | click | Dashboard |
+
+
 
 
 

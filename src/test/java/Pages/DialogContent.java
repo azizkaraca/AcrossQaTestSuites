@@ -98,6 +98,15 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//*[text()='Category']/following-sibling::div//*[@title='category']")
     private WebElement deviceCategory;
 
+    @FindBy(xpath = "//label[text()='Installation Year']/following-sibling::div//input")
+    private WebElement installationYear;
+
+    @FindBy(xpath = "//label[text()='Ip Address']/following-sibling::div//input")
+    private WebElement ipAddress;
+
+    @FindBy(xpath = "//label[text()='Port Number']/following-sibling::div//input")
+    private WebElement portNumber;
+
     @FindBy(css = "span[title='Categories']")
     private WebElement categories;
 
@@ -122,6 +131,8 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "(//*[contains(text(),'Create')])[2]")
     private WebElement create;
 
+    @FindBy (xpath = "//*[contains(text(),'Import')]")
+    private WebElement importButton;
     @FindBy(xpath = "//span[text()='Active']")
     private WebElement active;
 
@@ -272,11 +283,17 @@ public class DialogContent extends _Parent {
     @FindBy (xpath = "//span[text()='Shareable']")
     private WebElement shareable;
 
-
     @FindBy(xpath = "//*[text()='Next']")
     private WebElement next;
+
     @FindBy(xpath = "//div[@data-id='ACROSS_QA']//div[@data-field='__check__']")
     private WebElement installation;
+
+    @FindBy(xpath = "(//div[@data-field='__check__'])[2]")
+    private WebElement importInstanceElement;
+
+    @FindBy (xpath = "//*[@value='2026']")
+    private WebElement year2026;
 
     // List Elements locate below this line
 
@@ -316,6 +333,9 @@ public class DialogContent extends _Parent {
             case "scanRate": myElement = scanRate;break;
             case "connections": myElement = connections;break;
             case "reason": myElement = reason;break;
+            case "installationYear": myElement = installationYear;break;
+            case "ipAddress": myElement = ipAddress;break;
+            case "portNumber": myElement = portNumber;break;
 
 
         }
@@ -389,6 +409,10 @@ public class DialogContent extends _Parent {
             case "TestCustomDataTemplate1": myElement = TestCustomDataTemplate1;break;
             case "installation": myElement = installation;break;
             case "next": myElement = next;break;
+            case "importButton": myElement = importButton;break;
+            case "importInstanceElement": myElement = importInstanceElement;break;
+//            case "installationYear": myElement = installationYear;break;
+            case "year2026": myElement = year2026;break;
 
 
         }

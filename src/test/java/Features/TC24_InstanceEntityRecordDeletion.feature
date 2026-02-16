@@ -20,6 +20,7 @@ Feature: Instance Entity Record Deletion
       | click | search |
 
     And User clicks following dynamic elements
+      | click | Name   |
       | click | delete |
       | click | Yes    |
 

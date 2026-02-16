@@ -6,7 +6,7 @@ Feature: Device Creation
     Then Login should be successfully
 
   @Regression
-  Scenario: TC- Device Creation Scenario
+  Scenario: TC-27 Device Creation Scenario
 
     And User clicks following dynamic elements
       | click | Library |
