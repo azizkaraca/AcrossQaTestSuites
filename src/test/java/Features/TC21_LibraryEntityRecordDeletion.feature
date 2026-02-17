@@ -14,7 +14,7 @@ Feature: Library Entity Record Deletion
       | click | Library Entity_1 |
 
     And User search the item
-      | search | TestLibraryEntityEdit |
+      | search | TestLibraryEntityTest |
 
     And User clicks following dynamic elements
       | click | search |

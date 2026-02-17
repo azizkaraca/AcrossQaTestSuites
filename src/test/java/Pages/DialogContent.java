@@ -290,10 +290,8 @@ public class DialogContent extends _Parent {
     private WebElement installation;
 
     @FindBy(xpath = "(//div[@data-field='__check__'])[2]")
-    private WebElement importInstanceElement;
+    private WebElement checkTheElement;
 
-    @FindBy (xpath = "//*[@value='2026']")
-    private WebElement year2026;
 
     // List Elements locate below this line
 
@@ -410,10 +408,7 @@ public class DialogContent extends _Parent {
             case "installation": myElement = installation;break;
             case "next": myElement = next;break;
             case "importButton": myElement = importButton;break;
-            case "importInstanceElement": myElement = importInstanceElement;break;
-//            case "installationYear": myElement = installationYear;break;
-            case "year2026": myElement = year2026;break;
-
+            case "checkTheElement": myElement = checkTheElement;break;
 
         }
         clickFunction(myElement);

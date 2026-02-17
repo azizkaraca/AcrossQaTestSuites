@@ -14,11 +14,11 @@ Feature: Instance Entity Record Import From Library Entity Records
       | click | Instance Entity_1 |
 
     And User clicks following Items
-      | importButton          |
-      | importInstanceElement |
-      | next                  |
-      | installation          |
-      | next                  |
+      | importButton    |
+      | checkTheElement |
+      | next            |
+      | installation    |
+      | next            |
 
     And User enters data to necessary areas
       | name        | TestImportInstanceEntity              |

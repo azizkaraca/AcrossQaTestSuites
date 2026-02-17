@@ -15,7 +15,7 @@ Feature: Library Entity Record Creation
       | click | Create           |
 
     And User enters data to necessary areas
-      | name        | TestLibraryEntity    |
+      | name        | TestLibraryEntityTest  |
       | description | LibraryEntityForTest |
 
     And User selects necessary areas
@@ -33,7 +33,7 @@ Feature: Library Entity Record Creation
       | greek   |
 
     And User enters data to necessary areas
-      | name | TestLibraryEntityEL |
+      | name | TestLibraryEntityTestEL |
 
     And User changes languages of relevant fields
       | english |
@@ -41,9 +41,6 @@ Feature: Library Entity Record Creation
 
     And User enters data to necessary areas
       | description | LibraryEntityForTestEL |
-
-#    And User press the Tab Button on Keyboard Times
-#      | 5 |
 
     And User clicks following dynamic elements
       | click | save |

@@ -19,7 +19,7 @@ Feature: Instance Entity Record Creation
       | next         |
 
     And User enters data to necessary areas
-      | name        | TestInstanceEntity    |
+      | name        | TestInstanceEntityTest    |
       | description | InstanceEntityForTest |
 
     And User selects necessary areas
@@ -37,7 +37,7 @@ Feature: Instance Entity Record Creation
       | greek   |
 
     And User enters data to necessary areas
-      | name | TestInstanceEntityEL |
+      | name | TestInstanceEntityTestEL |
 
     And User changes languages of relevant fields
       | english |

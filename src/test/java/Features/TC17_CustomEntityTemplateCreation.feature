@@ -5,7 +5,7 @@ Feature: Custom Entity Template Creation
     When Login with QA user credentials
     Then Login should be successfully
 
-  @Regression
+#  @Regression  (Entity Templates cannot be deleted, therefore use it rare)
   Scenario: TC-17 Custom Entity Template Creation Scenario
 
     And User clicks following dynamic elements

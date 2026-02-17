@@ -23,6 +23,12 @@ public class ActionsStep {
             dc.ENTER();
     }
 
+    @And("User selects the Value on Keyboard Times")
+    public void userSelectsTheValueByUsingDownButtonOnKeyboard(int times) {
+        for (int i = 0; i < times; i++)
+            dc.DOWN();
+    }
+
     @And("User press the Esc Button on Keyboard Times")
     public void userPressTheEscButtonOnKeyboardTimes(int times) {
         for (int i = 0; i < times; i++)

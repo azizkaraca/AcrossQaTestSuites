@@ -221,6 +221,14 @@ public class _Parent {
 
     }
 
+    public void DOWN()
+    {
+
+        Actions actions = new Actions(GWD.getDriver());
+        actions.sendKeys(Keys.DOWN).perform();
+
+    }
+
     public void ESC()
     {
 
@@ -245,10 +253,10 @@ public class _Parent {
         Actions actions = new Actions(driver);
         actions.moveToElement(element)
                 .click()
-                .pause(Duration.ofMillis(200))
+                .pause(Duration.ofMillis(400))
                 .sendKeys(string)
-                .pause(Duration.ofMillis(200))
-                .sendKeys(Keys.TAB)
+                .pause(Duration.ofMillis(400))
+//                .sendKeys(Keys.TAB)
                 .perform();
     }
 

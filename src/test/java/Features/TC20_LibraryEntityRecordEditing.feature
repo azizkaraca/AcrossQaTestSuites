@@ -14,11 +14,11 @@ Feature: Library Entity Record Editing
       | click | Library Entity_1 |
 
     And User search the item
-      | search | TestLibraryEntity |
+      | search | TestLibraryEntityTest |
 
     And User clicks following dynamic elements
       | click | search            |
-      | click | TestLibraryEntity |
+      | click | TestLibraryEntityTest |
 
     And User clicks hide button if the alert exist
       | hide |

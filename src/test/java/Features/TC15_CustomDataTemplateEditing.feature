@@ -26,7 +26,7 @@ Feature: Custom Data Template Editing
       | edit |
 
     And User edits the record with name
-      | name | TestCustomDataTemplateEdit |
+      | description | CustomDataTemplateForEditTest |
 
     And User changes languages of relevant fields
       | english |

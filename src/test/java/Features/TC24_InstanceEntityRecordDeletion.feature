@@ -14,7 +14,7 @@ Feature: Instance Entity Record Deletion
       | click | Instance Entity_1 |
 
     And User search the item
-      | search | TestInstanceEntity |
+      | search | TestInstanceEntityTest |
 
     And User clicks following dynamic elements
       | click | search |

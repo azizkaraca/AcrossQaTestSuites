@@ -14,11 +14,11 @@ Feature: Instance Entity Record Editing
       | click | Instance Entity_1 |
 
     And User search the item
-      | search | TestInstanceEntity |
+      | search | TestInstanceEntityTest |
 
     And User clicks following dynamic elements
       | click | search             |
-      | click | TestInstanceEntity |
+      | click | TestInstanceEntityTest |
 
     And User clicks hide button if the alert exist
       | hide |
@@ -27,7 +27,6 @@ Feature: Instance Entity Record Editing
       | edit |
 
     And User edits the record with name
-#      | name        | TestInstanceEntityEdit        |
       | description | TestInstanceEntityForTestEdit |
 
     And User clicks following dynamic elements
