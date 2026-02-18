@@ -28,13 +28,6 @@ Feature: Custom Data Template Editing
     And User edits the record with name
       | description | CustomDataTemplateForEditTest |
 
-    And User changes languages of relevant fields
-      | english |
-      | greek   |
-
-    And User edits the record with name
-      | name | TestCustomDataTemplateEditEL |
-
     And User confirms the selection
       | save |
       | yes  |

@@ -86,6 +86,9 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//span[text()='Devices']")
     private WebElement devices;
 
+    @FindBy(xpath = "//h6[text()='Devices']")
+    private WebElement importDevices;
+
     @FindBy(xpath = "//button[text()='Hide']")
     private WebElement hide;
 
@@ -127,6 +130,9 @@ public class DialogContent extends _Parent {
 
     @FindBy(xpath = "//span[contains(text(),'add')]")
     private WebElement plusIcon;
+
+    @FindBy(xpath = "(//*[text()='add'])[2]")
+    private WebElement addButton;
 
     @FindBy(xpath = "(//*[contains(text(),'Create')])[2]")
     private WebElement create;
@@ -180,6 +186,9 @@ public class DialogContent extends _Parent {
 
     @FindBy(xpath = "//button[text()='Save']")
     private WebElement saveButton;
+
+    @FindBy(xpath = "//*[text()='save']")
+    private WebElement saveIcon;
 
     @FindBy(xpath = "//label[contains(text(),'Search')]/following-sibling::div//input")
     private WebElement search;
@@ -349,6 +358,7 @@ public class DialogContent extends _Parent {
             case "downArrow": myElement = downArrow;break;
             case "logout": myElement = logout;break;
             case "devices": myElement = devices;break;
+            case "importDevices": myElement = importDevices;break;
             case "edit": myElement = edit;break;
             case "category": myElement = category;break;
             case "solarPanel": myElement = solarPanel;break;
@@ -379,6 +389,7 @@ public class DialogContent extends _Parent {
             case "searchButton": myElement = searchButton;break;
             case "arrowButton": myElement = arrowButton;break;
             case "plusIcon": myElement = plusIcon;break;
+            case "addButton": myElement = addButton;break;
             case "languageSwitch": myElement = languageSwitch;break;
             case "displayName": myElement = displayName;break;
             case "description": myElement = description;break;
@@ -409,6 +420,7 @@ public class DialogContent extends _Parent {
             case "next": myElement = next;break;
             case "importButton": myElement = importButton;break;
             case "checkTheElement": myElement = checkTheElement;break;
+            case "saveIcon": myElement = saveIcon;break;
 
         }
         clickFunction(myElement);
