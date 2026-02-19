@@ -11,7 +11,7 @@ public class LogoutSteps {
     public void goToMyAccount()
     {
 
-        dc.findAndClick("menuBar");
+//        dc.findAndClick("menuBar");
         dc.findAndClick("downArrow");
 
     }

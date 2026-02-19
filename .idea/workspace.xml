@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260218_Update_1">
+    <list default="true" id="dd11023e-6ed0-490d-8f1c-306ddf49ce30" name="Changes" comment="20260218_Update_2">
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.09/test-output/screenshots/embedded7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.12/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 26-02-19 13.12/test-output/screenshots/embedded1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC36_InstanceEntityImportFromLibraryWithDevice&amp;Register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/TC18_CustomEntityTemplateEditing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TC37_ImportedInstanceEntityWithDeviceDeletion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LogoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DialogContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LogoutSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,15 +123,15 @@
       <recent name="AcrossRestAssured" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC16_CustomDataTemplateDeletion">
-    <configuration name="Feature: TC16_CustomDataTemplateDeletion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-37 Imported Instance Entity Record With Device Deletion Scenario">
+    <configuration name="Feature: TC02_Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC16_CustomDataTemplateDeletion.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC16_CustomDataTemplateDeletion" />
+      <option name="SUGGESTED_NAME" value="Feature: TC02_Logout" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -127,55 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-14 Custom Data Template Creation Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-02 Logout From Application" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC14_CustomDataTemplateCreation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC02_Logout.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-14 Custom Data Template Creation Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-14 Custom Data Template Creation Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-14 Custom Data Template Creation Scenario" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC-15 Custom Data Template Editing Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC15_CustomDataTemplateEditing.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-15 Custom Data Template Editing Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-15 Custom Data Template Editing Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-15 Custom Data Template Editing Scenario" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC-16 Custom Data Template Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC16_CustomDataTemplateDeletion.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AcrossQaTestSuites" />
-      <option name="NAME_FILTER" value="^TC\-16 Custom Data Template Deletion Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-16 Custom Data Template Deletion Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-16 Custom Data Template Deletion Scenario" />
+      <option name="NAME_FILTER" value="^TC\-02 Logout From Application$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-02 Logout From Application$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-02 Logout From Application" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -207,13 +183,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: TC-37 Imported Instance Entity Record With Device Deletion Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC37_ImportedInstanceEntityWithDeviceDeletion.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AcrossQaTestSuites" />
+      <option name="NAME_FILTER" value="^TC\-37 Imported Instance Entity Record With Device Deletion Scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-37 Imported Instance Entity Record With Device Deletion Scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-37 Imported Instance Entity Record With Device Deletion Scenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TC37_ImportedInstanceEntityWithDeviceDeletion.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AcrossQaTestSuites" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC16_CustomDataTemplateDeletion" />
-        <item itemvalue="Cucumber Java.Scenario: TC-15 Custom Data Template Editing Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-14 Custom Data Template Creation Scenario" />
-        <item itemvalue="Cucumber Java.Scenario: TC-16 Custom Data Template Deletion Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: TC-37 Imported Instance Entity Record With Device Deletion Scenario" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario: TC-36 Instance Entity Record Import From Library With Device&amp;Register Scenario" />
+        <item itemvalue="Cucumber Java.Feature: TC02_Logout" />
+        <item itemvalue="Cucumber Java.Scenario: TC-02 Logout From Application" />
       </list>
     </recent_temporary>
   </component>
@@ -336,14 +352,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1694174663106</updated>
-    </task>
-    <task id="LOCAL-00045" summary="20250825_Update_3">
-      <option name="closed" value="true" />
-      <created>1756108980621</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1756108980621</updated>
     </task>
     <task id="LOCAL-00046" summary="20250825_Update_4">
       <option name="closed" value="true" />
@@ -617,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771415405629</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="20260218_Update_2">
+      <option name="closed" value="true" />
+      <created>1771415512516</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1771415512516</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +664,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20250825_Update_4" />
     <MESSAGE value="20250825_Update_5" />
     <MESSAGE value="20250825_Update_6" />
     <MESSAGE value="20250825_Update_7" />
@@ -673,7 +688,8 @@
     <MESSAGE value="20260217_Update_1" />
     <MESSAGE value="20260217_Update_2" />
     <MESSAGE value="20260218_Update_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20260218_Update_1" />
+    <MESSAGE value="20260218_Update_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="20260218_Update_2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

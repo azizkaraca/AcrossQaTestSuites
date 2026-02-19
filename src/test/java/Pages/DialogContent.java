@@ -89,6 +89,12 @@ public class DialogContent extends _Parent {
     @FindBy(xpath = "//h6[text()='Devices']")
     private WebElement importDevices;
 
+    @FindBy(xpath = "//h6[text()='Devices']/preceding-sibling::span[text()='expand_more']")
+    private WebElement expandDevices;
+
+    @FindBy(xpath = "//p[contains(text(),'StableDEVICE')]")
+    private WebElement stableDevice;
+
     @FindBy(xpath = "//button[text()='Hide']")
     private WebElement hide;
 
@@ -421,6 +427,8 @@ public class DialogContent extends _Parent {
             case "importButton": myElement = importButton;break;
             case "checkTheElement": myElement = checkTheElement;break;
             case "saveIcon": myElement = saveIcon;break;
+            case "expandDevices": myElement = expandDevices;break;
+            case "stableDevice": myElement = stableDevice;break;
 
         }
         clickFunction(myElement);
